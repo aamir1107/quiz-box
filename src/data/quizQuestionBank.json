@@ -1,0 +1,5299 @@
+  {
+    "General Knowledge": {
+      "World capitals": [
+        {
+          "question": "What is the capital of Afghanistan?",
+          "options": [
+            "Kabul",
+            "Tehran",
+            "Baghdad",
+            "Islamabad"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Argentina?",
+          "options": [
+            "Buenos Aires",
+            "Santiago",
+            "Lima",
+            "Montevideo"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Australia?",
+          "options": [
+            "Sydney",
+            "Canberra",
+            "Melbourne",
+            "Brisbane"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Brazil?",
+          "options": [
+            "Sao Paulo",
+            "Rio de Janeiro",
+            "Brasilia",
+            "Salvador"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Canada?",
+          "options": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of China?",
+          "options": [
+            "Beijing",
+            "Shanghai",
+            "Hong Kong",
+            "Tokyo"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Egypt?",
+          "options": [
+            "Cairo",
+            "Alexandria",
+            "Luxor",
+            "Giza"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Marseille",
+            "Lyon",
+            "Toulouse"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Germany?",
+          "options": [
+            "Berlin",
+            "Hamburg",
+            "Munich",
+            "Frankfurt"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of India?",
+          "options": [
+            "New Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Bangalore"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        }
+      ],
+      "Famous landmarks": [
+        {
+          "question": "Which famous landmark is located in Egypt?",
+          "options": [
+            "Great Wall of China",
+            "Eiffel Tower",
+            "Taj Mahal",
+            "Pyramids of Giza"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in France?",
+          "options": [
+            "Machu Picchu",
+            "Colosseum",
+            "Acropolis of Athens",
+            "Eiffel Tower"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in India?",
+          "options": [
+            "Statue of Liberty",
+            "Sydney Opera House",
+            "Machu Picchu",
+            "Taj Mahal"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Italy?",
+          "options": [
+            "Burj Khalifa",
+            "Petra",
+            "Stonehenge",
+            "Colosseum"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Brazil?",
+          "options": [
+            "Big Ben",
+            "Christ the Redeemer",
+            "Angkor Wat",
+            "Great Wall of China"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in the United States?",
+          "options": [
+            "Machu Picchu",
+            "Golden Gate Bridge",
+            "Hagia Sophia",
+            "Sydney Opera House"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in China?",
+          "options": [
+            "Taj Mahal",
+            "Pyramids of Giza",
+            "Great Wall of China",
+            "Statue of Liberty"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in the United Kingdom?",
+          "options": [
+            "Sagrada Familia",
+            "Stonehenge",
+            "Colosseum",
+            "Burj Khalifa"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Spain?",
+          "options": [
+            "Hagia Sophia",
+            "Petra",
+            "Sagrada Familia",
+            "Great Wall of China"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Peru?",
+          "options": [
+            "Eiffel Tower",
+            "Angkor Wat",
+            "Machu Picchu",
+            "Golden Gate Bridge"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Greece?",
+          "options": [
+            "Acropolis of Athens",
+            "Statue of Liberty",
+            "Christ the Redeemer",
+            "Taj Mahal"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Australia?",
+          "options": [
+            "Pyramids of Giza",
+            "Sydney Opera House",
+            "Angkor Wat",
+            "Eiffel Tower"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ],
+      "Historical events and dates": [
+        {
+          "question": "Which historical event occurred on July 4, 1776?",
+          "options": [
+            "American Revolution begins",
+            "Signing of the Declaration of Independence",
+            "French Revolution begins",
+            "Boston Tea Party"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on October 14, 1066?",
+          "options": [
+            "Battle of Hastings",
+            "Signing of the Magna Carta",
+            "Gutenberg prints the Bible",
+            "Spanish Armada defeated"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on December 7, 1941?",
+          "options": [
+            "D-Day invasion",
+            "Atomic bombing of Hiroshima",
+            "Attack on Pearl Harbor",
+            "Berlin Wall falls"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on July 20, 1969?",
+          "options": [
+            "Assassination of John F. Kennedy",
+            "First human moon landing",
+            "Berlin Airlift begins",
+            "End of World War II"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on June 6, 1944?",
+          "options": [
+            "Assassination of Archduke Franz Ferdinand",
+            "Boston Tea Party",
+            "D-Day invasion",
+            "Russian Revolution begins"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on April 15, 1912?",
+          "options": [
+            "Great Fire of London",
+            "Stock Market Crash of 1929",
+            "Sinking of the Titanic",
+            "Discovery of America by Christopher Columbus"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on November 9, 1989?",
+          "options": [
+            "Fall of the Berlin Wall",
+            "End of apartheid in South Africa",
+            "Assassination of Martin Luther King Jr.",
+            "Cuban Missile Crisis"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on September 1, 1939?",
+          "options": [
+            "Assassination of Julius Caesar",
+            "World War I begins",
+            "Signing of the Treaty of Versailles",
+            "World War II begins"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on December 17, 1903?",
+          "options": [
+            "Invention of the telephone",
+            "Signing of the Emancipation Proclamation",
+            "Wright brothers' first flight",
+            "Boston Massacre"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on October 24, 1929?",
+          "options": [
+            "Attack on Pearl Harbor",
+            "Bombing of Hiroshima",
+            "Great Depression begins",
+            "Moon landing"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        }
+      ],
+      "Science & technology facts": [
+        {
+          "question": "What is the smallest unit of matter?",
+          "options": [
+            "Atom",
+            "Molecule",
+            "Cell",
+            "Proton"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Jupiter",
+            "Mars",
+            "Saturn"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of converting a solid directly into a gas called?",
+          "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Vaporization"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which scientist proposed the theory of general relativity?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Galileo Galilei"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which element is the main constituent of the Earth's atmosphere?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon",
+            "Hydrogen"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "options": [
+            "Heart",
+            "Brain",
+            "Liver",
+            "Skin"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which animal is known for its ability to camouflage itself?",
+          "options": [
+            "Chameleon",
+            "Kangaroo",
+            "Elephant",
+            "Giraffe"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of plants converting sunlight into energy called?",
+          "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Fertilization",
+            "Pollination"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is the largest in our solar system?",
+          "options": [
+            "Venus",
+            "Jupiter",
+            "Mars",
+            "Saturn"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the unit of electric current?",
+          "options": [
+            "Volt",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which scientist is known for his laws of motion?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Galileo Galilei"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the chemical symbol for the element gold?",
+          "options": [
+            "Go",
+            "Ag",
+            "Au",
+            "Pt"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which type of energy is stored in an object due to its position?",
+          "options": [
+            "Potential energy",
+            "Kinetic energy",
+            "Thermal energy",
+            "Nuclear energy"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Popular books and authors": [
+        {
+          "question": "Who is the author of the Harry Potter series?",
+          "options": [
+            "J.K. Rowling",
+            "George R.R. Martin",
+            "Stephen King",
+            "Dan Brown"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "Ernest Hemingway",
+            "F. Scott Fitzgerald",
+            "Mark Twain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the book '1984'?",
+          "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Fyodor Dostoevsky"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "John Steinbeck",
+            "William Faulkner"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the 'Lord of the Rings' trilogy?",
+          "options": [
+            "J.R.R. Tolkien",
+            "C.S. Lewis",
+            "George R.R. Martin",
+            "Philip Pullman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Catcher in the Rye'?",
+          "options": [
+            "J.D. Salinger",
+            "Mark Twain",
+            "Charles Dickens",
+            "Herman Melville"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'Jane Eyre'?",
+          "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Jane Austen",
+            "Louisa May Alcott"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Chronicles of Narnia' series?",
+          "options": [
+            "C.S. Lewis",
+            "J.R.R. Tolkien",
+            "Roald Dahl",
+            "Neil Gaiman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the book 'Moby-Dick'?",
+          "options": [
+            "Herman Melville",
+            "Mark Twain",
+            "Nathaniel Hawthorne",
+            "Ralph Waldo Emerson"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Hunger Games' trilogy?",
+          "options": [
+            "Suzanne Collins",
+            "Veronica Roth",
+            "J.K. Rowling",
+            "Stephenie Meyer"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Art and literature": [
+        {
+          "question": "What is the name of the painting that depicts the Last Supper?",
+          "options": [
+            "The Mona Lisa",
+            "The Last Supper",
+            "The Birth of Venus",
+            "The Starry Night"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "William Faulkner",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Starry Night'?",
+          "options": [
+            "Vincent van Gogh",
+            "Claude Monet",
+            "Leonardo da Vinci",
+            "Rembrandt"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the sculpture that depicts David?",
+          "options": [
+            "The Thinker",
+            "David",
+            "The Pieta",
+            "Venus de Milo"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the play 'Hamlet'?",
+          "options": [
+            "William Shakespeare",
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "John Webster"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Mona Lisa'?",
+          "options": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Rembrandt",
+            "Vincent van Gogh"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the poem that begins with the line 'Stopping by Woods on a Snowy Evening'?",
+          "options": [
+            "The Road Not Taken",
+            "Stopping by Woods on a Snowy Evening",
+            "The Raven",
+            "O Captain! My Captain!"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "Toni Morrison",
+            "Alice Walker",
+            "Maya Angelou"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Birth of Venus'?",
+          "options": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Rembrandt",
+            "Sandro Botticelli"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the play 'Romeo and Juliet'?",
+          "options": [
+            "William Shakespeare",
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "John Webster"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Thinker'?",
+          "options": [
+            "Rodin",
+            "Michelangelo",
+            "Rembrandt",
+            "Vincent van Gogh"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the poem that begins with the line 'The Raven'?",
+          "options": [
+            "The Road Not Taken",
+            "Stopping by Woods on a Snowy Evening",
+            "The Raven",
+            "O Captain! My Captain!"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        }
+      ],
+      "Sports trivia": [
+        {
+          "question": "What is the name of the stadium that is home to the New York Yankees?",
+          "options": [
+            "Yankee Stadium",
+            "Fenway Park",
+            "Dodger Stadium",
+            "Wrigley Field"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous baseball player of all time?",
+          "options": [
+            "Babe Ruth",
+            "Ty Cobb",
+            "Willie Mays",
+            "Jackie Robinson"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the football team that has won the most Super Bowls?",
+          "options": [
+            "New England Patriots",
+            "Pittsburgh Steelers",
+            "Dallas Cowboys",
+            "San Francisco 49ers"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous basketball player of all time?",
+          "options": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kobe Bryant",
+            "Wilt Chamberlain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the football team that has won the most NFL championships?",
+          "options": [
+            "Green Bay Packers",
+            "Pittsburgh Steelers",
+            "New York Giants",
+            "Chicago Bears"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous tennis player of all time?",
+          "options": [
+            "Serena Williams",
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Djokovic"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the golf course that is home to the Masters Tournament?",
+          "options": [
+            "Augusta National Golf Club",
+            "Pebble Beach Golf Links",
+            "St. Andrews, Scotland",
+            " Whistling Straits Wisconsin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous golfer of all time?",
+          "options": [
+            "Jack Nicklaus",
+            "Tiger Woods",
+            "Arnold Palmer",
+            "Gary Player"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the hockey team that has won the most Stanley Cups?",
+          "options": [
+            "Montreal Canadiens",
+            "Toronto Maple Leafs",
+            " Detroit Red Wings",
+            "Boston Bruins"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous hockey player of all time?",
+          "options": [
+            "Wayne Gretzky",
+            "Mario Lemieux",
+            " Bobby Orr",
+            " Gordie Howe"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the soccer team that has won the most World Cups?",
+          "options": [
+            "Brazil",
+            "Germany",
+            "Italy",
+            "Argentina"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous soccer player of all time?",
+          "options": [
+            "Pele",
+            "Diego Maradona",
+            "Johan Cruyff",
+            "Zinedine Zidane"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the basketball team that has won the most NBA championships?",
+          "options": [
+            "Boston Celtics",
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Golden State Warriors"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Geography": {
+      "Continents and oceans": [
+        {
+          "question": "Which is the largest continent by area?",
+          "options": [
+            "Asia",
+            "Africa",
+            "North America",
+            "South America"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the smallest continent by area?",
+          "options": [
+            "Australia",
+            "Antarctica",
+            "Europe",
+            "North America"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the most populous continent?",
+          "options": [
+            "Asia",
+            " Africa",
+            "Europe",
+            "North America"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the least populous continent?",
+          "options": [
+            "Antarctica",
+            "Australia",
+            "Europe",
+            "North America"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the largest ocean by area?",
+          "options": [
+            "Pacific Ocean",
+            " Atlantic Ocean",
+            "Indian Ocean",
+            " Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the smallest ocean by area?",
+          "options": [
+            "Arctic Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the deepest ocean?",
+          "options": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the oldest ocean?",
+          "options": [
+            "Pacific Ocean",
+            " Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Africa and South America?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Asia and Australia?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Antarctica and South America?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Europe and Africa?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Asia and North America?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            " Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Antarctica and Australia?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Countries and their capitals": [
+        {
+          "question": "What is the capital of Australia?",
+          "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Brazil?",
+          "options": [
+            "Rio de Janeiro",
+            "Sao Paulo",
+            "Brasilia",
+            "Salvador"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Canada?",
+          "options": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of China?",
+          "options": [
+            "Beijing",
+            "Shanghai",
+            "Hong Kong",
+            "Guangzhou"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Egypt?",
+          "options": [
+            "Cairo",
+            "Alexandria",
+            "Luxor",
+            "Giza"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Marseille",
+            "Lyon",
+            "Nice"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Germany?",
+          "options": [
+            "Berlin",
+            "Munich",
+            "Hamburg",
+            "Frankfurt"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of India?",
+          "options": [
+            "Mumbai",
+            "Delhi",
+            "Kolkata",
+            "Chennai"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Italy?",
+          "options": [
+            "Rome",
+            "Milan",
+            "Naples",
+            "Florence"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Japan?",
+          "options": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Yokohama"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Mexico?",
+          "options": [
+            "Mexico City",
+            "Guadalajara",
+            "Monterrey",
+            "Cancun"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Russia?",
+          "options": [
+            "Moscow",
+            "Saint Petersburg",
+            "Novosibirsk",
+            "Yekaterinburg"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of South Africa?",
+          "options": [
+            "Johannesburg",
+            "Cape Town",
+            "Pretoria",
+            "Durban"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        }
+      ],
+      "Major cities": [
+        {
+          "question": "Which city is the capital of France?",
+          "options": [
+            "Paris",
+            "Rome",
+            "London",
+            "Berlin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'Big Apple'?",
+          "options": [
+            "New York City",
+            "Los Angeles",
+            "Chicago",
+            "Houston"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of Japan?",
+          "options": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Yokohama"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'Eternal City'?",
+          "options": [
+            "Rome",
+            "Athens",
+            "Venice",
+            "Florence"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of Australia?",
+          "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'City of Love'?",
+          "options": [
+            "Paris",
+            "Venice",
+            "Barcelona",
+            "Vienna"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of Russia?",
+          "options": [
+            "Moscow",
+            "Saint Petersburg",
+            "Novosibirsk",
+            "Yekaterinburg"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'Windy City'?",
+          "options": [
+            "Chicago",
+            "New York City",
+            "Los Angeles",
+            "Houston"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of Brazil?",
+          "options": [
+            "Rio de Janeiro",
+            "Sao Paulo",
+            "Brasilia",
+            "Salvador"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'City of Angels'?",
+          "options": [
+            "Los Angeles",
+            "New York City",
+            "Chicago",
+            "Houston"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of Canada?",
+          "options": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is known as the 'City of Lights'?",
+          "options": [
+            "Paris",
+            "New York City",
+            "Rome",
+            "London"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city is the capital of China?",
+          "options": [
+            "Beijing",
+            "Shanghai",
+            "Hong Kong",
+            "Guangzhou"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Famous mountains and rivers": [
+        {
+          "question": "Which is the highest mountain in the world?",
+          "options": [
+            "Mount Kilimanjaro",
+            "Mount Everest",
+            "Mount McKinley",
+            "Mount Fuji"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the longest river in Africa?",
+          "options": [
+            "Nile River",
+            "Congo River",
+            "Zambezi River",
+            "Niger River"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mountain range runs along the west coast of South America?",
+          "options": [
+            "Himalayas",
+            "Rocky Mountains",
+            "Andes",
+            "Alps"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the longest river in the world?",
+          "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the tallest mountain in North America?",
+          "options": [
+            "Mount Kilimanjaro",
+            "Mount Everest",
+            "Mount McKinley",
+            "Mount Fuji"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which river is known as the 'Mother of Rivers'?",
+          "options": [
+            "Nile River",
+            "Amazon River",
+            "Ganges River",
+            "Yangtze River"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mountain range is located in Europe?",
+          "options": [
+            "Andes",
+            "Rocky Mountains",
+            "Himalayas",
+            "Alps"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the longest river in Asia?",
+          "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mountain range is located in South Asia?",
+          "options": [
+            "Andes",
+            "Rocky Mountains",
+            "Himalayas",
+            "Alps"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the longest river in Europe?",
+          "options": [
+            "Danube River",
+            "Volga River",
+            "Rhine River",
+            "Thames River"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mountain range is located in North America?",
+          "options": [
+            "Andes",
+            "Rocky Mountains",
+            "Himalayas",
+            "Alps"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the largest river in South America?",
+          "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Flags of different countries": [
+        {
+          "question": "Which country does this flag belong to?",
+          "image": "https://example.com/flag_image1.jpg",
+          "options": [
+            "Germany",
+            "France",
+            "Italy",
+            "Spain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Identify the country associated with this flag.",
+          "image": "https://example.com/flag_image2.jpg",
+          "options": [
+            "Japan",
+            "China",
+            "South Korea",
+            "India"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "To which country does this flag belong?",
+          "image": "https://example.com/flag_image3.jpg",
+          "options": [
+            "United States",
+            "United Kingdom",
+            "Canada",
+            "Australia"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country's flag is this?",
+          "image": "https://example.com/flag_image4.jpg",
+          "options": [
+            "Russia",
+            "Brazil",
+            "Argentina",
+            "Mexico"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Identify the country associated with this flag.",
+          "image": "https://example.com/flag_image5.jpg",
+          "options": [
+            "Sweden",
+            "Norway",
+            "Denmark",
+            "Finland"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "To which country does this flag belong?",
+          "image": "https://example.com/flag_image6.jpg",
+          "options": [
+            "Egypt",
+            "Morocco",
+            "Algeria",
+            "Tunisia"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country's flag is this?",
+          "image": "https://example.com/flag_image7.jpg",
+          "options": [
+            "Switzerland",
+            "Austria",
+            "Belgium",
+            "Netherlands"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Identify the country associated with this flag.",
+          "image": "https://example.com/flag_image8.jpg",
+          "options": [
+            "Greece",
+            "Turkey",
+            "Bulgaria",
+            "Croatia"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "To which country does this flag belong?",
+          "image": "https://example.com/flag_image9.jpg",
+          "options": [
+            "South Africa",
+            "Kenya",
+            "Nigeria",
+            "Ghana"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country's flag is this?",
+          "image": "https://example.com/flag_image10.jpg",
+          "options": [
+            "Colombia",
+            "Peru",
+            "Chile",
+            "Argentina"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Identify the country associated with this flag.",
+          "image": "https://example.com/flag_image11.jpg",
+          "options": [
+            "Saudi Arabia",
+            "United Arab Emirates",
+            "Qatar",
+            "Oman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Landmarks and natural wonders": [
+        {
+          "question": "1. Which of the following is a landmark located in Italy?",
+          "options": [
+            "Eiffel Tower",
+            "Great Wall of China",
+            "Colosseum"
+          ],
+          "correctAnswerIndex": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "2. What is the tallest mountain in the world?",
+          "options": [
+            "Mount Everest",
+            "Kilimanjaro",
+            "Denali"
+          ],
+          "correctAnswerIndex": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "3. Which of the following is a natural wonder located in South America?",
+          "options": [
+            "Victoria Falls",
+            "Amazon Rainforest",
+            "Machu Picchu"
+          ],
+          "correctAnswerIndex": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "4. Which famous monument is located in Egypt?",
+          "options": [
+            "Taj Mahal",
+            "Eiffel Tower",
+            "Pyramids of Giza"
+          ],
+          "correctAnswerIndex": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "5. Which of the following is a natural wonder located in the United States?",
+          "options": [
+            "Grand Canyon",
+            "Petra",
+            "Great Barrier Reef"
+          ],
+          "correctAnswerIndex": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "6. Where is the Great Wall located?",
+          "options": [
+            "China",
+            "India",
+            "Italy"
+          ],
+          "correctAnswerIndex": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "7. Which iconic structure is located in France?",
+          "options": [
+            "Statue of Liberty",
+            "Taj Mahal",
+            "Eiffel Tower"
+          ],
+          "correctAnswerIndex": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "8. Which of the following is a natural wonder located in Africa?",
+          "options": [
+            "Mount Everest",
+            "Serengeti Migration",
+            "Machu Picchu"
+          ],
+          "correctAnswerIndex": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "9. Where is the Taj Mahal located?",
+          "options": [
+            "India",
+            "Egypt",
+            "France"
+          ],
+          "correctAnswerIndex": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "10. Which of the following is a natural wonder located in Australia?",
+          "options": [
+            "Petra",
+            "Great Barrier Reef",
+            "Victoria Falls"
+          ],
+          "correctAnswerIndex": 1,
+          "isMultiple": false
+        }
+      ]
+    },
+    "History": {
+      "Ancient civilizations": [
+        {
+          "question": "Which ancient civilization built the Great Pyramids of Giza?",
+          "options": [
+            "Maya Civilization",
+            "Inca Civilization",
+            "Egyptian Civilization",
+            "Greek Civilization"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization developed the first known system of writing called cuneiform?",
+          "options": [
+            "Indus Valley Civilization",
+            "Mesopotamian Civilization",
+            "Aztec Civilization",
+            "Roman Civilization"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization is known for constructing Machu Picchu?",
+          "options": [
+            "Aztec Civilization",
+            "Maya Civilization",
+            "Inca Civilization",
+            "Persian Civilization"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization built the Acropolis in Athens?",
+          "options": [
+            "Roman Civilization",
+            "Greek Civilization",
+            "Egyptian Civilization",
+            "Indus Valley Civilization"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization developed a system of canals for irrigation and agriculture known as 'the Hanging Gardens of Babylon' ?",
+          "options": [
+            "Greek Civilization",
+            "Persian Civilization",
+            "Sumerian Civilization",
+            "Phoenician Civilization"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization is credited with the invention of the decimal system and zero?",
+          "options": [
+            "Maya Civilization",
+            "Inca Civilization",
+            "Indus Valley Civilization",
+            "Mesopotamian Civilization"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ancient civilization is associated with the archaeological site of Troy?",
+          "options": [
+            "Greek Civilization",
+            "Persian Civilization",
+            "Roman Civilization",
+            "Phoenician Civilization"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "World wars and their outcomes": [
+        {
+          "question": "Which World War resulted in the Treaty of Versailles?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War led to the rise of Nazi Germany and the Axis Powers?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War ended with the dropping of atomic bombs on Hiroshima and Nagasaki?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War resulted in the establishment of the United Nations?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War led to the division of Germany into East and West?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War saw the use of trench warfare and chemical weapons?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War resulted in the formation of the League of Nations?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War marked the beginning of the nuclear arms race between the United States and the Soviet Union?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War led to the decolonization of many African and Asian countries?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which World War resulted in the creation of Israel as a Jewish homeland?",
+          "options": [
+            "World War I",
+            "World War II",
+            "World War III",
+            "Cold War"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ],
+      "Famous historical figures": [
+        {
+          "question": "Who was the first President of the United States?",
+          "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "Benjamin Franklin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is known for painting the Mona Lisa?",
+          "options": [
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Michelangelo"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is credited with discovering gravity?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Charles Darwin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the play Romeo and Juliet?",
+          "options": [
+            "William Shakespeare",
+            "Charles Dickens",
+            "Jane Austen",
+            "Mark Twain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who led the civil rights movement in the United States and gave the famous 'I Have a Dream' speech?",
+          "options": [
+            "Martin Luther King Jr.",
+            "Nelson Mandela",
+            "Mahatma Gandhi",
+            "Barack Obama"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who was the ancient Greek philosopher known for his teachings on logic and reasoning?",
+          "options": [
+            "Socrates",
+            "Aristotle",
+            "Plato",
+            "Homer"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who was the Queen of England during the Elizabethan Era?",
+          "options": [
+            "Queen Victoria",
+            "Queen Mary",
+            "Queen Elizabeth I",
+            "Queen Anne"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who was the first person to step foot on the moon?",
+          "options": [
+            "Neil Armstrong",
+            "Buzz Aldrin",
+            "Yuri Gagarin",
+            "John F. Kennedy"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted the ceiling of the Sistine Chapel in Vatican City?",
+          "options": [
+            "Leonardo da Vinci",
+            "Raphael",
+            "Michelangelo",
+            "Donatello"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who was the military and political leader of France during the French Revolution?",
+          "options": [
+            "Louis XVI",
+            "Napoleon Bonaparte",
+            "Jean-Jacques Rousseau",
+            "Marie Antoinette"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ],
+      "Significant events and dates": [
+        {
+          "question": "Which event occurred on October 29, 1929, leading to the Great Depression?",
+          "options": [
+            "Stock Market Crash of 1929",
+            "Signing of the Treaty of Versailles",
+            "Fall of the Berlin Wall",
+            "Assassination of Archduke Franz Ferdinand"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event took place on July 20, 1969, when humans first set foot on the moon?",
+          "options": [
+            "Invention of the Internet",
+            "Moon Landing",
+            "End of World War II",
+            "Declaration of Independence"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event occurred on June 6, 1944, leading to the invasion of Normandy during World War II?",
+          "options": [
+            "Attack on Pearl Harbor",
+            "Dropping of the Atomic Bomb",
+            "D-Day",
+            "Emancipation Proclamation"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event took place on November 9, 1989, leading to the reunification of Germany?",
+          "options": [
+            "Assassination of John F. Kennedy",
+            "Discovery of Penicillin",
+            "Berlin Wall Fall",
+            "Ratification of the U.S. Constitution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event occurred on September 11, 2001, leading to the terrorist attacks on the World Trade Center in New York City?",
+          "options": [
+            "Signing of the Magna Carta",
+            "Battle of Waterloo",
+            "9/11 Attacks",
+            "Rosa Parks' Bus Boycott"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event took place on August 15, 1945, marking the end of World War II?",
+          "options": [
+            "Fall of the Roman Empire",
+            "Atomic Bombing of Hiroshima",
+            "V-J Day",
+            "French Revolution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event occurred on December 7, 1941, leading to the United States' entry into World War II?",
+          "options": [
+            "Assassination of Martin Luther King Jr.",
+            "Moon Landing",
+            "Attack on Pearl Harbor",
+            "Declaration of Independence"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event took place on April 15, 1912, when the RMS Titanic sank after hitting an iceberg?",
+          "options": [
+            "Boston Tea Party",
+            "Russian Revolution",
+            "Sinking of the Titanic",
+            "Signing of the Emancipation Proclamation"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which event occurred on July 4, 1776, marking the adoption of the United States Declaration of Independence?",
+          "options": [
+            "Discovery of America by Christopher Columbus",
+            "French Revolution",
+            "Boston Tea Party",
+            "Independence Day"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        }
+      ],
+      "Revolutions and independence movements": [
+        {
+          "question": "Which revolution resulted in the overthrow of the Russian monarchy and the establishment of the Soviet Union?",
+          "options": [
+            "French Revolution",
+            "American Revolution",
+            "Russian Revolution",
+            "Mexican Revolution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which independence movement led to the creation of the Republic of India?",
+          "options": [
+            "Indian Independence Movement",
+            "Mexican War of Independence",
+            "American Revolution",
+            "Chinese Revolution"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which revolution in France led to the end of the monarchy and the rise of Napoleon Bonaparte?",
+          "options": [
+            "Russian Revolution",
+            "Mexican Revolution",
+            "French Revolution",
+            "Cuban Revolution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which independence movement resulted in the creation of the State of Israel?",
+          "options": [
+            "Indian Independence Movement",
+            "Mexican War of Independence",
+            "Israeli Independence Movement",
+            "Chinese Revolution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which revolution in China led to the establishment of the People's Republic of China?",
+          "options": [
+            "French Revolution",
+            "American Revolution",
+            "Russian Revolution",
+            "Chinese Revolution"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which independence movement in Mexico resulted in the end of Spanish colonial rule?",
+          "options": [
+            "Indian Independence Movement",
+            "Mexican War of Independence",
+            "American Revolution",
+            "Chinese Revolution"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which revolution in Cuba led to the overthrow of the Batista regime and the rise of Fidel Castro?",
+          "options": [
+            "Russian Revolution",
+            "Mexican Revolution",
+            "French Revolution",
+            "Cuban Revolution"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which independence movement fought against British colonial rule in India?",
+          "options": [
+            "Indian Independence Movement",
+            "Mexican War of Independence",
+            "American Revolution",
+            "Chinese Revolution"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which revolution in the United States resulted in independence from Great Britain?",
+          "options": [
+            "French Revolution",
+            "American Revolution",
+            "Russian Revolution",
+            "Mexican Revolution"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which independence movement in Vietnam fought against French colonial rule?",
+          "options": [
+            "Indian Independence Movement",
+            "Mexican War of Independence",
+            "Vietnamese Independence Movement",
+            "Chinese Revolution"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Science & Technology": {
+      "Basic physics and chemistry concepts": [
+        {
+          "question": "Which subatomic particle has a positive charge?",
+          "options": [
+            "Proton",
+            "Neutron",
+            "Electron",
+            "Photon"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the formula for calculating force?",
+          "options": [
+            "F = ma",
+            "E = mc^2",
+            "P = mv",
+            "A = l x w"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is a noble gas?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Argon",
+            "Hydrogen"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the SI unit of electric current?",
+          "options": [
+            "Volt",
+            "Ampere",
+            "Ohm",
+            "Watt"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which law states that every action has an equal and opposite reaction?",
+          "options": [
+            "Newton's First Law",
+            "Newton's Second Law",
+            "Newton's Third Law",
+            "Law of Conservation of Energy"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following elements is a metal?",
+          "options": [
+            "Carbon",
+            "Oxygen",
+            "Iron",
+            "Sulfur"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the pH scale used to measure?",
+          "options": [
+            "Temperature",
+            "Acidity",
+            "Density",
+            "Pressure"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of a solid changing directly into a gas called?",
+          "options": [
+            "Melting",
+            "Evaporation",
+            "Condensation",
+            "Sublimation"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is a renewable source of energy?",
+          "options": [
+            "Coal",
+            "Natural Gas",
+            "Solar Power",
+            "Nuclear Power"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the smallest unit of an element that retains its chemical properties?",
+          "options": [
+            "Atom",
+            "Molecule",
+            "Compound",
+            "Ion"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Biology and human anatomy": [
+        {
+          "question": "Which of the following is responsible for carrying oxygen in the blood?",
+          "options": [
+            "Red Blood Cells",
+            "White Blood Cells",
+            "Platelets",
+            "Plasma"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which organ is responsible for filtering waste from the blood and producing urine?",
+          "options": [
+            "Liver",
+            "Lungs",
+            "Kidneys",
+            "Pancreas"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "options": [
+            "Brain",
+            "Liver",
+            "Skin",
+            "Heart"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is responsible for transmitting signals between different parts of the body?",
+          "options": [
+            "Nerves",
+            "Muscles",
+            "Bones",
+            "Blood Vessels"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is the powerhouse of the cell and generates energy?",
+          "options": [
+            "Nucleus",
+            "Golgi Apparatus",
+            "Mitochondria",
+            "Endoplasmic Reticulum"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which system is responsible for circulating blood throughout the body?",
+          "options": [
+            "Nervous System",
+            "Respiratory System",
+            "Circulatory System",
+            "Digestive System"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process by which plants convert sunlight into energy called?",
+          "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Fermentation",
+            "Transpiration"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is responsible for the sense of smell?",
+          "options": [
+            "Tongue",
+            "Nose",
+            "Ears",
+            "Eyes"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which part of the brain is responsible for controlling voluntary muscle movements?",
+          "options": [
+            "Cerebellum",
+            "Hypothalamus",
+            "Cerebrum",
+            "Medulla Oblongata"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is responsible for carrying genetic information in cells?",
+          "options": [
+            "Chromosomes",
+            "Ribosomes",
+            "Mitochondria",
+            "Vacuoles"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Space exploration": [
+        {
+          "question": "Which space agency successfully landed astronauts on the Moon?",
+          "options": [
+            "NASA",
+            "ESA",
+            "ISRO",
+            "Roscosmos"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which spacecraft was the first to reach Jupiter?",
+          "options": [
+            "Voyager 1",
+            "Cassini-Huygens",
+            "Galileo",
+            "New Horizons"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Mercury",
+            "Venus",
+            "Mars",
+            "Saturn"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "What was the name of the first artificial satellite launched into space?",
+          "options": [
+            "Explorer 1",
+            "Sputnik 1",
+            "Apollo 11",
+            "Vostok 1"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which space telescope was launched in 1990 and has provided stunning images of the universe?",
+          "options": [
+            "Hubble Space Telescope",
+            "Chandra X-ray Observatory",
+            "Spitzer Space Telescope",
+            "Kepler Space Telescope"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is the largest in our solar system?",
+          "options": [
+            "Jupiter",
+            "Saturn",
+            "Uranus",
+            "Neptune"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mission successfully landed the Curiosity rover on Mars?",
+          "options": [
+            "Viking 1",
+            "Opportunity",
+            "Spirit",
+            "Mars Science Laboratory"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which spacecraft was the first to fly by Pluto and provide close-up images of the dwarf planet?",
+          "options": [
+            "Voyager 1",
+            "New Horizons",
+            "Cassini-Huygens",
+            "Rosetta"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet has the most rings in our solar system?",
+          "options": [
+            "Jupiter",
+            "Saturn",
+            "Uranus",
+            "Neptune"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which space agency launched the Mars Perseverance rover in 2020 to search for signs of past microbial life on Mars?",
+          "options": [
+            "NASA",
+            "ESA",
+            "ISRO",
+            "Roscosmos"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Inventions and inventors": [
+        {
+          "question": "Who is credited with inventing the telephone?",
+          "options": [
+            "Alexander Graham Bell",
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Marie Curie"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who invented the light bulb?",
+          "options": [
+            "Isaac Newton",
+            "Benjamin Franklin",
+            "Thomas Edison",
+            "Galileo Galilei"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is known for inventing the printing press?",
+          "options": [
+            "Albert Einstein",
+            "Leonardo da Vinci",
+            "Johannes Gutenberg",
+            "Louis Pasteur"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who invented the steam engine?",
+          "options": [
+            "James Watt",
+            "Henry Ford",
+            "Alexander Fleming",
+            "Guglielmo Marconi"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is credited with inventing the computer?",
+          "options": [
+            "Alan Turing",
+            "Bill Gates",
+            "Steve Jobs",
+            "Thomas Edison"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who invented the airplane?",
+          "options": [
+            "The Wright Brothers",
+            "Nikola Tesla",
+            "Galileo Galilei",
+            "Marie Curie"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is known for inventing the electric battery?",
+          "options": [
+            "Michael Faraday",
+            "Albert Einstein",
+            "Benjamin Franklin",
+            "Marie Curie"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who invented the radio?",
+          "options": [
+            "Isaac Newton",
+            "Benjamin Franklin",
+            "Nikola Tesla",
+            "Thomas Edison"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is credited with inventing the telescope?",
+          "options": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Johannes Gutenberg",
+            "Louis Pasteur"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who invented the theory of relativity?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Marie Curie",
+            "Leonardo da Vinci"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ],
+      "Scientific discoveries": [
+        {
+          "question": "Who is credited with discovering penicillin, the first antibiotic?",
+          "options": [
+            "Louis Pasteur",
+            "Alexander Fleming",
+            "Marie Curie",
+            "Albert Einstein"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the theory of general relativity?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Charles Darwin"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the laws of motion?",
+          "options": [
+            "Marie Curie",
+            "Isaac Newton",
+            "Charles Darwin",
+            "Galileo Galilei"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the structure of DNA?",
+          "options": [
+            "Rosalind Franklin",
+            "Gregor Mendel",
+            "James Watson",
+            "Francis Crick"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the law of gravity?",
+          "options": [
+            "Marie Curie",
+            "Isaac Newton",
+            "Charles Darwin",
+            "Galileo Galilei"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the existence of radio waves?",
+          "options": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Marie Curie",
+            "Heinrich Hertz"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the principle of natural selection?",
+          "options": [
+            "Isaac Newton",
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Albert Einstein"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the law of conservation of energy?",
+          "options": [
+            "Marie Curie",
+            "Isaac Newton",
+            "Albert Einstein",
+            "James Joule"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the double-helix structure of DNA?",
+          "options": [
+            "Rosalind Franklin",
+            "Gregor Mendel",
+            "James Watson",
+            "Francis Crick"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who discovered the existence of X-rays?",
+          "options": [
+            "Thomas Edison",
+            "Wilhelm Roentgen",
+            "Marie Curie",
+            "Albert Einstein"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ],
+      "Computer science and programming": [
+        {
+          "question": "What is the most widely used programming language for web development?",
+          "options": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "C++"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which programming language is known for its use in statistical analysis and data science?",
+          "options": [
+            "Java",
+            "Python",
+            "Ruby",
+            "C#"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hypertext Markup Language",
+            "Hyperlink and Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyper Transfer Markup Language"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is a popular version control system used in software development?",
+          "options": [
+            "Git",
+            "SVN",
+            "Mercurial",
+            "Perforce"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheet",
+            "Creative Style System",
+            "Computer Style Sheet",
+            "Coded Style Syntax"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which programming language is often used for game development?",
+          "options": [
+            "Python",
+            "C#",
+            "Ruby",
+            "Swift"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of finding and fixing errors in a program called?",
+          "options": [
+            "Debugging",
+            "Compiling",
+            "Testing",
+            "Analyzing"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the term for a named storage location in a computer program?",
+          "options": [
+            "Variable",
+            "Function",
+            "Object",
+            "Array"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which of the following is an object-oriented programming language?",
+          "options": [
+            "C",
+            "Pascal",
+            "Fortran",
+            "Java"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+          "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Linked List"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Sports": {
+      "Popular sports and their rules": [
+        {
+          "question": "In which sport are players not allowed to touch the ball with their hands or arms?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Tennis",
+            "Volleyball"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sport is known as the 'beautiful game'?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball",
+            "Golf"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "In which sport are players required to use a racket to hit a shuttlecock over a net?",
+          "options": [
+            "Tennis",
+            "Badminton",
+            "Table Tennis",
+            "Squash"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sport involves scoring points by throwing a ball through a hoop?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball",
+            "Golf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "In which sport are players required to hit a small white ball into a series of holes using the fewest number of strokes?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball",
+            "Golf"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sport involves hitting a ball with a bat and running around a series of bases?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball",
+            "Golf"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "In which sport are players required to hit a small yellow ball over a net using a racquet?",
+          "options": [
+            "Tennis",
+            "Badminton",
+            "Table Tennis",
+            "Squash"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sport involves hitting a small white ball into a series of pockets on a green table?",
+          "options": [
+            "Basketball",
+            "Soccer",
+            "Baseball",
+            "Snooker"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "In which sport are players required to hit a small white ball into a series of holes using a club?",
+          "options": [
+            "Tennis",
+            "Badminton",
+            "Golf",
+            "Squash"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sport involves hitting a ball back and forth over a net using small paddles?",
+          "options": [
+            "Tennis",
+            "Badminton",
+            "Table Tennis",
+            "Pickleball"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        }
+      ],
+      "Famous athletes and teams": [
+        {
+          "question": "Which basketball player is often referred to as 'Air Jordan'?",
+          "options": [
+            "LeBron James",
+            "Kobe Bryant",
+            "Michael Jordan",
+            "Magic Johnson"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which soccer player is known as 'CR7'?",
+          "options": [
+            "Lionel Messi",
+            "Neymar Jr.",
+            "Cristiano Ronaldo",
+            "Andrés Iniesta"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which tennis player has won the most Grand Slam singles titles?",
+          "options": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Serena Williams",
+            "Novak Djokovic"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which football team has won the most Super Bowl titles?",
+          "options": [
+            "New England Patriots",
+            "Pittsburgh Steelers",
+            "Dallas Cowboys",
+            "San Francisco 49ers"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which sprinter holds the world record for the 100-meter dash?",
+          "options": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Jesse Owens",
+            "Justin Gatlin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which baseball player holds the record for the most home runs in a single season?",
+          "options": [
+            "Babe Ruth",
+            "Hank Aaron",
+            "Barry Bonds",
+            "Willie Mays"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which golfer has won the most Masters Tournaments?",
+          "options": [
+            "Tiger Woods",
+            "Phil Mickelson",
+            "Jack Nicklaus",
+            "Arnold Palmer"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which Formula 1 driver holds the record for the most World Drivers' Championship titles?",
+          "options": [
+            "Lewis Hamilton",
+            "Michael Schumacher",
+            "Ayrton Senna",
+            "Sebastian Vettel"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which ice hockey team has won the most Stanley Cup championships?",
+          "options": [
+            "Montreal Canadiens",
+            "Toronto Maple Leafs",
+            "Chicago Blackhawks",
+            "Detroit Red Wings"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which female gymnast has won the most Olympic medals?",
+          "options": [
+            "Simone Biles",
+            "Nadia Comăneci",
+            "Gabby Douglas",
+            "Aly Raisman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Olympic games historys": [
+        {
+          "question": "In which year were the first modern Olympic Games held?",
+          "options": [
+            "1896",
+            "1900",
+            "1912",
+            "1924"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city hosted the Olympic Games in 2016?",
+          "options": [
+            "Sydney",
+            "Beijing",
+            "Rio de Janeiro",
+            "London"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has hosted the most Olympic Games?",
+          "options": [
+            "United States",
+            "France",
+            "Japan",
+            "Germany"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "In which year were the Olympic Games held in Berlin, Germany?",
+          "options": [
+            "1936",
+            "1948",
+            "1956",
+            "1964"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city hosted the first Winter Olympic Games?",
+          "options": [
+            "St. Moritz",
+            "Innsbruck",
+            "Chamonix",
+            "Lake Placid"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "In which year were the Olympic Games canceled due to World War II?",
+          "options": [
+            "1936",
+            "1940",
+            "1944",
+            "1948"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most gold medals in the history of the Summer Olympic Games?",
+          "options": [
+            "United States",
+            "China",
+            "Soviet Union",
+            "Great Britain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which city hosted the Olympic Games in 2008?",
+          "options": [
+            "Sydney",
+            "Beijing",
+            "Athens",
+            "Rio de Janeiro"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "In which year were the Olympic Games held in Moscow, Soviet Union?",
+          "options": [
+            "1968",
+            "1976",
+            "1984",
+            "1992"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most gold medals in the history of the Winter Olympic Games?",
+          "options": [
+            "Norway",
+            "United States",
+            "Soviet Union",
+            "Germany"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "World Cup winners (in various sports)": [
+        {
+          "question": "Which country has won the most FIFA World Cup titles?",
+          "options": [
+            "Brazil",
+            "Germany",
+            "Italy",
+            "Argentina"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Rugby World Cup titles?",
+          "options": [
+            "Australia",
+            "New Zealand",
+            "South Africa",
+            "England"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most ICC Cricket World Cup titles?",
+          "options": [
+            "India",
+            "England",
+            "Australia",
+            "West Indies"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most FIBA Basketball World Cup titles?",
+          "options": [
+            "United States",
+            "Soviet Union",
+            "Argentina",
+            "Spain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most FIFA Women's World Cup titles?",
+          "options": [
+            "United States",
+            "Germany",
+            "Brazil",
+            "Norway"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Men's Hockey World Cup titles?",
+          "options": [
+            "Australia",
+            "Netherlands",
+            "Germany",
+            "Pakistan"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Women's Hockey World Cup titles?",
+          "options": [
+            "Australia",
+            "Netherlands",
+            "Argentina",
+            "Germany"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Davis Cup titles in tennis?",
+          "options": [
+            "United States",
+            "Australia",
+            "Spain",
+            "Sweden"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Women's Rugby World Cup titles?",
+          "options": [
+            "England",
+            "United States",
+            "New Zealand",
+            "Canada"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country has won the most Women's Cricket World Cup titles?",
+          "options": [
+            "Australia",
+            "England",
+            "India",
+            "West Indies"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Sports records and achievements": [
+        {
+          "question": "Who holds the record for the most career home runs in Major League Baseball?",
+          "options": [
+            "Barry Bonds",
+            "Hank Aaron",
+            "Babe Ruth",
+            "Alex Rodriguez"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which athlete holds the record for the most Olympic gold medals?",
+          "options": [
+            "Michael Phelps",
+            "Usain Bolt",
+            "Carl Lewis",
+            "Simone Biles"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the fastest 100-meter sprint in athletics?",
+          "options": [
+            "Usain Bolt",
+            "Tyson Gay",
+            "Yohan Blake",
+            "Justin Gatlin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which team holds the record for the most consecutive NBA championships?",
+          "options": [
+            "Boston Celtics",
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Golden State Warriors"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the most goals scored in a single NHL season?",
+          "options": [
+            "Wayne Gretzky",
+            "Mario Lemieux",
+            "Bobby Orr",
+            "Alexander Ovechkin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which athlete holds the record for the most career Grand Slam titles in tennis?",
+          "options": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Serena Williams"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the highest career scoring average in the NBA?",
+          "options": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kareem Abdul-Jabbar",
+            "Wilt Chamberlain"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which athlete holds the record for the most career goals in international football (soccer)?",
+          "options": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Pelé",
+            "Marta"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the longest hitting streak in Major League Baseball?",
+          "options": [
+            "Joe DiMaggio",
+            "Ichiro Suzuki",
+            "Pete Rose",
+            "Ted Williams"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which team holds the record for the most consecutive Super Bowl victories?",
+          "options": [
+            "Pittsburgh Steelers",
+            "San Francisco 49ers",
+            "New England Patriots",
+            "Dallas Cowboys"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Entertainment": {
+      "Movies and actors/actresses": [
+        {
+          "question": "Who won the Academy Award for Best Actor for his role in the movie 'The Revenant'?",
+          "options": [
+            "Leonardo DiCaprio",
+            "Tom Hanks",
+            "Brad Pitt",
+            "Johnny Depp"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie won the Academy Award for Best Picture in 2020?",
+          "options": [
+            "Parasite",
+            "Joker",
+            "1917",
+            "Once Upon a Time in Hollywood"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who played the character of Hermione Granger in the 'Harry Potter' film series?",
+          "options": [
+            "Emma Watson",
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Tom Felton"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actor portrayed the role of Tony Stark / Iron Man in the Marvel Cinematic Universe?",
+          "options": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie won the Academy Award for Best Animated Feature in 2021?",
+          "options": [
+            "Soul",
+            "Onward",
+            "Wolfwalkers",
+            "Over the Moon"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who won the Academy Award for Best Actress for her role in the movie 'La La Land'?",
+          "options": [
+            "Emma Stone",
+            "Natalie Portman",
+            "Jennifer Lawrence",
+            "Cate Blanchett"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie is known for the line 'Here's looking at you, kid'?",
+          "options": [
+            "Casablanca",
+            "Gone with the Wind",
+            "The Godfather",
+            "Citizen Kane"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who directed the movie 'Pulp Fiction'?",
+          "options": [
+            "Quentin Tarantino",
+            "Martin Scorsese",
+            "Steven Spielberg",
+            "Christopher Nolan"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actress won the Academy Award for Best Actress for her role in the movie 'Black Swan'?",
+          "options": [
+            "Natalie Portman",
+            "Meryl Streep",
+            "Anne Hathaway",
+            "Jennifer Lawrence"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie is the highest-grossing film of all time (as of 2021)?",
+          "options": [
+            "Avengers: Endgame",
+            "Avatar",
+            "Titanic",
+            "Star Wars: The Force Awakens"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "TV shows and characters": [
+        {
+          "question": "Who played the character of Walter White in the TV show 'Breaking Bad'?",
+          "options": [
+            "Bryan Cranston",
+            "Aaron Paul",
+            "Jonathan Banks",
+            "Dean Norris"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which TV show features characters named Ross, Rachel, Monica, Chandler, Joey, and Phoebe?",
+          "options": [
+            "Friends",
+            "The Big Bang Theory",
+            "How I Met Your Mother",
+            "Seinfeld"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the main character in the TV show 'Sherlock'?",
+          "options": [
+            "Sherlock Holmes",
+            "John Watson",
+            "Mycroft Holmes",
+            "Irene Adler"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which TV show is set in the fictional realm of Westeros?",
+          "options": [
+            "Game of Thrones",
+            "The Walking Dead",
+            "Stranger Things",
+            "The Office"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who played the character of Michael Scott in the US version of 'The Office'?",
+          "options": [
+            "Steve Carell",
+            "Rainn Wilson",
+            "John Krasinski",
+            "Jenna Fischer"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which TV show features characters named Sheldon, Leonard, Penny, and Howard?",
+          "options": [
+            "The Big Bang Theory",
+            "Friends",
+            "How I Met Your Mother",
+            "Seinfeld"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the main character in the TV show 'Stranger Things'?",
+          "options": [
+            "Eleven",
+            "Mike Wheeler",
+            "Jim Hopper",
+            "Dustin Henderson"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which TV show follows the lives of Ted, Barney, Robin, Marshall, and Lily?",
+          "options": [
+            "How I Met Your Mother",
+            "Friends",
+            "The Big Bang Theory",
+            "Seinfeld"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who played the character of Tyrion Lannister in the TV show 'Game of Thrones'?",
+          "options": [
+            "Peter Dinklage",
+            "Kit Harington",
+            "Emilia Clarke",
+            "Sophie Turner"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which TV show features characters named Jerry, Elaine, George, and Kramer?",
+          "options": [
+            "Seinfeld",
+            "Friends",
+            "The Big Bang Theory",
+            "How I Met Your Mother"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Music genres and artists": [
+        {
+          "question": "Which artist is known as the 'King of Pop'?",
+          "options": [
+            "Michael Jackson",
+            "Elvis Presley",
+            "Madonna",
+            "Prince"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which music genre originated in Jamaica and features offbeat rhythms and prominent bass lines?",
+          "options": [
+            "Reggae",
+            "Hip Hop",
+            "Country",
+            "Salsa"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which artist is often referred to as the 'Queen of Soul'?",
+          "options": [
+            "Aretha Franklin",
+            "Whitney Houston",
+            "Tina Turner",
+            "Beyoncé"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which music genre originated in the United States and is characterized by its bluesy and improvisational style?",
+          "options": [
+            "Jazz",
+            "Rock",
+            "Pop",
+            "Classical"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which artist is known for hits such as 'Like a Rolling Stone' and 'Blowin' in the Wind'?",
+          "options": [
+            "Bob Dylan",
+            "Bruce Springsteen",
+            "David Bowie",
+            "Elton John"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which music genre originated in the African American communities of New Orleans and is characterized by its energetic and syncopated rhythms?",
+          "options": [
+            "Funk",
+            "Blues",
+            "Gospel",
+            "Jazz"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Which artist is known for hits such as 'Purple Rain' and 'When Doves Cry'?",
+          "options": [
+            "Prince",
+            "Stevie Wonder",
+            "James Brown",
+            "Marvin Gaye"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which music genre originated in the United States and is characterized by its loud and distorted guitar sounds?",
+          "options": [
+            "Rock",
+            "Country",
+            "R&B",
+            "Hip Hop"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which artist is known for hits such as 'Smooth Operator' and 'The Sweetest Taboo'?",
+          "options": [
+            "Sade",
+            "Alicia Keys",
+            "Erykah Badu",
+            "Beyoncé"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which music genre originated in Brazil and is known for its lively and percussive rhythms?",
+          "options": [
+            "Samba",
+            "Rock and Roll",
+            "Reggaeton",
+            "Hip Hop"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Award shows": [
+        {
+          "question": "Which award show recognizes excellence in the film industry?",
+          "options": [
+            "Academy Awards (Oscars)",
+            "Grammy Awards",
+            "Emmy Awards",
+            "Tony Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show honors achievements in the music industry?",
+          "options": [
+            "Grammy Awards",
+            "Academy Awards (Oscars)",
+            "Emmy Awards",
+            "Tony Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show celebrates outstanding achievements in television?",
+          "options": [
+            "Emmy Awards",
+            "Academy Awards (Oscars)",
+            "Grammy Awards",
+            "Tony Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show recognizes excellence in live Broadway theater?",
+          "options": [
+            "Tony Awards",
+            "Academy Awards (Oscars)",
+            "Grammy Awards",
+            "Emmy Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show is known as 'the Oscars of the East' and celebrates achievements in Asian cinema?",
+          "options": [
+            "Asia Pacific Screen Awards",
+            "Cannes Film Festival",
+            "BAFTA Awards",
+            "Golden Globe Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show recognizes excellence in the field of television advertising?",
+          "options": [
+            "Clio Awards",
+            "Webby Awards",
+            "Golden Globe Awards",
+            "MTV Video Music Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show honors achievements in the field of music videos?",
+          "options": [
+            "MTV Video Music Awards",
+            "Clio Awards",
+            "Webby Awards",
+            "Golden Globe Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show celebrates excellence in the advertising industry?",
+          "options": [
+            "Clio Awards",
+            "MTV Video Music Awards",
+            "Webby Awards",
+            "Golden Globe Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show recognizes achievements in web-based content?",
+          "options": [
+            "Webby Awards",
+            "Clio Awards",
+            "MTV Video Music Awards",
+            "Golden Globe Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which award show honors achievements in the field of sports?",
+          "options": [
+            "ESPY Awards",
+            "MTV Video Music Awards",
+            "Clio Awards",
+            "Webby Awards"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Celebrity trivia": [
+        {
+          "question": "Which actor played the character of Iron Man in the Marvel Cinematic Universe?",
+          "options": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which singer is known as the 'Queen of Pop'?",
+          "options": [
+            "Madonna",
+            "Beyoncé",
+            "Taylor Swift",
+            "Rihanna"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actor portrayed the character of Captain Jack Sparrow in the 'Pirates of the Caribbean' film series?",
+          "options": [
+            "Johnny Depp",
+            "Brad Pitt",
+            "Leonardo DiCaprio",
+            "Tom Hanks"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actress won an Academy Award for her performance in the movie 'La La Land'?",
+          "options": [
+            "Emma Stone",
+            "Jennifer Lawrence",
+            "Natalie Portman",
+            "Cate Blanchett"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which singer is known for hits like 'Hello' and 'Rolling in the Deep'?",
+          "options": [
+            "Adele",
+            "Lady Gaga",
+            "Katy Perry",
+            "Rihanna"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actor played the character of Batman in 'The Dark Knight' trilogy?",
+          "options": [
+            "Christian Bale",
+            "Ben Affleck",
+            "Michael Keaton",
+            "George Clooney"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actress won an Academy Award for her performance in the movie 'Black Swan'?",
+          "options": [
+            "Natalie Portman",
+            "Scarlett Johansson",
+            "Anne Hathaway",
+            "Jennifer Lawrence"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which singer is known for her album '1989' and hits like 'Shake It Off' and 'Blank Space'?",
+          "options": [
+            "Taylor Swift",
+            "Ariana Grande",
+            "Selena Gomez",
+            "Katy Perry"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actor played the character of James Bond in the film 'Casino Royale'?",
+          "options": [
+            "Daniel Craig",
+            "Pierce Brosnan",
+            "Sean Connery",
+            "Roger Moore"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which actress is known for her role as Hermione Granger in the 'Harry Potter' film series?",
+          "options": [
+            "Emma Watson",
+            "Emma Stone",
+            "Jennifer Lawrence",
+            "Natalie Portman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Famous quotes and catchphrases": [
+        {
+          "question": "Which famous scientist said, 'Eureka'?",
+          "options": [
+            "Archimedes",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Galileo Galilei"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie character famously said, 'May the Force be with you'?",
+          "options": [
+            "Obi-Wan Kenobi",
+            "Darth Vader",
+            "Luke Skywalker",
+            "Yoda"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous leader said, 'I have a dream'?",
+          "options": [
+            "Martin Luther King Jr.",
+            "Nelson Mandela",
+            "Winston Churchill",
+            "Mahatma Gandhi"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which cartoon character is known for saying, 'What's up, doc?'",
+          "options": [
+            "Bugs Bunny",
+            "Mickey Mouse",
+            "Scooby-Doo",
+            "Tom and Jerry"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous writer said, 'To be or not to be, that is the question'?",
+          "options": [
+            "William Shakespeare",
+            "Ernest Hemingway",
+            "Jane Austen",
+            "F. Scott Fitzgerald"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which movie character famously said, 'I'll be back'?",
+          "options": [
+            "The Terminator",
+            "James Bond",
+            "Harry Potter",
+            "Spider-Man"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which musician is known for saying, 'Music is my religion'?",
+          "options": [
+            "Jimi Hendrix",
+            "Bob Dylan",
+            "Elvis Presley",
+            "John Lennon"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which superhero is known for saying, 'With great power comes great responsibility'?",
+          "options": [
+            "Spider-Man",
+            "Superman",
+            "Batman",
+            "Wonder Woman"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which fictional character said, 'Elementary, my dear Watson'?",
+          "options": [
+            "Sherlock Holmes",
+            "James Bond",
+            "Hercule Poirot",
+            "Miss Marple"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical figure is known for saying, 'I think, therefore I am'?",
+          "options": [
+            "René Descartes",
+            "Socrates",
+            "Plato",
+            "Aristotle"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Literature": {
+      "Classic novels and authors": [
+        {
+          "question": "Who is the author of the novel 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Emily Brontë",
+            "Charlotte Brontë",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "F. Scott Fitzgerald",
+            "Mark Twain",
+            "Ernest Hemingway"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the novel 'Moby-Dick'?",
+          "options": [
+            "Herman Melville",
+            "Charles Dickens",
+            "Leo Tolstoy",
+            "Fyodor Dostoevsky"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote the novel '1984'?",
+          "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "J.R.R. Tolkien"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the novel 'Jane Eyre'?",
+          "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Jane Austen",
+            "Louisa May Alcott"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote the novel 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "John Steinbeck",
+            "William Faulkner"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the novel 'War and Peace'?",
+          "options": [
+            "Leo Tolstoy",
+            "Fyodor Dostoevsky",
+            "Anton Chekhov",
+            "Nikolai Gogol"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote the novel 'The Catcher in the Rye'?",
+          "options": [
+            "J.D. Salinger",
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the novel 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Emily Brontë",
+            "Charlotte Brontë",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "F. Scott Fitzgerald",
+            "Mark Twain",
+            "Ernest Hemingway"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Poetry and famous poems": [
+        {
+          "question": "Who wrote the poem 'The Raven'?",
+          "options": [
+            "Edgar Allan Poe",
+            "Robert Frost",
+            "Emily Dickinson",
+            "William Shakespeare"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which poet wrote the poem 'The Waste Land'?",
+          "options": [
+            "T.S. Eliot",
+            "Walt Whitman",
+            "Langston Hughes",
+            "Sylvia Plath"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the poem 'The Road Not Taken'?",
+          "options": [
+            "Robert Frost",
+            "Maya Angelou",
+            "Pablo Neruda",
+            "Rumi"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which poet wrote the famous poem 'Ode to a Nightingale'?",
+          "options": [
+            "John Keats",
+            "William Wordsworth",
+            "Lord Byron",
+            "Samuel Taylor Coleridge"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the poem 'The Love Song of J. Alfred Prufrock'?",
+          "options": [
+            "T.S. Eliot",
+            "Percy Bysshe Shelley",
+            "Ralph Waldo Emerson",
+            "E.E. Cummings"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which poet wrote the famous poem 'Do Not Go Gentle into That Good Night'?",
+          "options": [
+            "Dylan Thomas",
+            "William Butler Yeats",
+            "Pablo Neruda",
+            "Langston Hughes"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the poem 'The Raven'?",
+          "options": [
+            "Edgar Allan Poe",
+            "Robert Frost",
+            "Emily Dickinson",
+            "William Shakespeare"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which poet wrote the poem 'The Waste Land'?",
+          "options": [
+            "T.S. Eliot",
+            "Walt Whitman",
+            "Langston Hughes",
+            "Sylvia Plath"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the poem 'The Road Not Taken'?",
+          "options": [
+            "Robert Frost",
+            "Maya Angelou",
+            "Pablo Neruda",
+            "Rumi"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which poet wrote the famous poem 'Ode to a Nightingale'?",
+          "options": [
+            "John Keats",
+            "William Wordsworth",
+            "Lord Byron",
+            "Samuel Taylor Coleridge"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Literary genres and movements": [
+        {
+          "question": "Which literary genre focuses on expressing feelings and emotions through verse?",
+          "options": [
+            "Poetry",
+            "Drama",
+            "Fiction",
+            "Non-fiction"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary movement emerged in the 19th century and emphasized imagination, emotions, and nature?",
+          "options": [
+            "Romanticism",
+            "Realism",
+            "Modernism",
+            "Naturalism"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary genre is based on real events and people?",
+          "options": [
+            "Non-fiction",
+            "Fiction",
+            "Poetry",
+            "Drama"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary movement arose in the 20th century and focused on experimental techniques and fragmented narratives?",
+          "options": [
+            "Modernism",
+            "Romanticism",
+            "Realism",
+            "Postmodernism"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary genre typically involves a series of connected events and conflicts?",
+          "options": [
+            "Fiction",
+            "Poetry",
+            "Drama",
+            "Non-fiction"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary movement emerged in the mid-20th century and reflected skepticism towards grand narratives and universal truths?",
+          "options": [
+            "Postmodernism",
+            "Romanticism",
+            "Modernism",
+            "Realism"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary genre involves the portrayal of imaginary or fictional characters and events?",
+          "options": [
+            "Fiction",
+            "Poetry",
+            "Drama",
+            "Non-fiction"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary movement emphasized representing reality and everyday life in a detailed and accurate manner?",
+          "options": [
+            "Realism",
+            "Romanticism",
+            "Modernism",
+            "Naturalism"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary genre is focused on presenting stories in a theatrical manner?",
+          "options": [
+            "Drama",
+            "Fiction",
+            "Poetry",
+            "Non-fiction"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which literary movement emerged in the late 19th century and emphasized scientific determinism and objective observation?",
+          "options": [
+            "Naturalism",
+            "Romanticism",
+            "Realism",
+            "Modernism"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Literary characters and their creators": [
+        {
+          "question": "Who is the creator of the character Sherlock Holmes?",
+          "options": [
+            "Arthur Conan Doyle",
+            "Agatha Christie",
+            "J.R.R. Tolkien",
+            "Jane Austen"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the novel 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Charlotte Brontë",
+            "Charles Dickens",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author created the character Jay Gatsby in the novel 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "Harper Lee",
+            "John Steinbeck"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the creator of the character Holden Caulfield in the novel 'The Catcher in the Rye'?",
+          "options": [
+            "J.D. Salinger",
+            "George Orwell",
+            "Ray Bradbury",
+            "F. Scott Fitzgerald"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author created the character Atticus Finch in the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "F. Scott Fitzgerald",
+            "John Steinbeck",
+            "Ernest Hemingway"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the creator of the character Elizabeth Bennet in the novel 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Charlotte Brontë",
+            "Emily Dickinson",
+            "Virginia Woolf"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author created the character Frodo Baggins in 'The Lord of the Rings'?",
+          "options": [
+            "J.R.R. Tolkien",
+            "C.S. Lewis",
+            "George R.R. Martin",
+            "Terry Pratchett"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the creator of the character Jane Eyre in the novel 'Jane Eyre'?",
+          "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Anne Brontë",
+            "Jane Austen"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author created the character Scout Finch in the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "F. Scott Fitzgerald",
+            "John Steinbeck",
+            "Ernest Hemingway"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the creator of the character Ebenezer Scrooge in the novel 'A Christmas Carol'?",
+          "options": [
+            "Charles Dickens",
+            "Oscar Wilde",
+            "Mark Twain",
+            "Lewis Carroll"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Book summaries and plots": [
+        {
+          "question": "Which book tells the story of a young orphan named Harry Potter and his journey as a wizard?",
+          "options": [
+            "Harry Potter and the Philosopher's Stone",
+            "To Kill a Mockingbird",
+            "Pride and Prejudice",
+            "The Great Gatsby"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book follows the life of a group of rabbits as they search for a new home?",
+          "options": [
+            "Watership Down",
+            "1984",
+            "The Catcher in the Rye",
+            "Moby-Dick"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book depicts the adventures of a young girl named Alice in a fantasy world?",
+          "options": [
+            "Alice's Adventures in Wonderland",
+            "Brave New World",
+            "Jane Eyre",
+            "The Hobbit"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book tells the story of a man named Santiago and his journey to catch a giant marlin?",
+          "options": [
+            "The Old Man and the Sea",
+            "Animal Farm",
+            "Frankenstein",
+            "The Lord of the Rings"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book explores the theme of dystopian society ruled by the Party and the protagonist's rebellion against it?",
+          "options": [
+            "1984",
+            "Pride and Prejudice",
+            "The Great Gatsby",
+            "Harry Potter and the Philosopher's Stone"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book portrays the life of a young woman named Elizabeth Bennet and her journey to find love?",
+          "options": [
+            "Pride and Prejudice",
+            "To Kill a Mockingbird",
+            "Wuthering Heights",
+            "The Catcher in the Rye"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book tells the story of a man named Jay Gatsby and his pursuit of the American Dream?",
+          "options": [
+            "The Great Gatsby",
+            "Alice's Adventures in Wonderland",
+            "Jane Eyre",
+            "Moby-Dick"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book follows the journey of a young boy named Pip as he aspires to become a gentleman?",
+          "options": [
+            "Great Expectations",
+            "Watership Down",
+            "Brave New World",
+            "Frankenstein"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book explores the theme of totalitarianism and the protagonist's rebellion against it?",
+          "options": [
+            "Nineteen Eighty-Four",
+            "Animal Farm",
+            "The Hobbit",
+            "The Old Man and the Sea"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which book tells the story of a whale hunt and the captain's obsession with revenge?",
+          "options": [
+            "Moby-Dick",
+            "1984",
+            "Jane Eyre",
+            "To Kill a Mockingbird"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ]
+    },
+    "Miscellaneous": {
+      "Food and drink": [
+        {
+          "question": "What is the main ingredient in guacamole?",
+          "options": [
+            "Avocado",
+            "Tomato",
+            "Onion",
+            "Lime"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country is famous for its pasta dishes such as spaghetti and lasagna?",
+          "options": [
+            "Italy",
+            "Mexico",
+            "China",
+            "India"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the primary ingredient in sushi rolls?",
+          "options": [
+            "Raw fish",
+            "Seaweed",
+            "Rice",
+            "Soy sauce"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which beverage is made from fermented grapes?",
+          "options": [
+            "Wine",
+            "Beer",
+            "Tequila",
+            "Vodka"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the national dish of Mexico?",
+          "options": [
+            "Tacos",
+            "Sushi",
+            "Pizza",
+            "Pasta"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which fruit is commonly used to make guacamole?",
+          "options": [
+            "Avocado",
+            "Apple",
+            "Orange",
+            "Banana"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which spice is often used to add flavor and heat to dishes?",
+          "options": [
+            "Chili pepper",
+            "Cinnamon",
+            "Vanilla",
+            "Ginger"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the main ingredient in a margherita pizza?",
+          "options": [
+            "Tomato",
+            "Cheese",
+            "Pepperoni",
+            "Mushroom"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country is famous for its coffee production?",
+          "options": [
+            "Brazil",
+            "France",
+            "Japan",
+            "Spain"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What is the main ingredient in a classic Caesar salad?",
+          "options": [
+            "Lettuce",
+            "Chicken",
+            "Croutons",
+            "Parmesan cheese"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Mythology and folklore": [
+        {
+          "question": "Which mythological figure is known for his strength and twelve labors?",
+          "options": [
+            "Hercules",
+            "Zeus",
+            "Poseidon",
+            "Apollo"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mythological creature is part lion, part goat, and part serpent?",
+          "options": [
+            "Chimera",
+            "Cyclops",
+            "Minotaur",
+            "Sphinx"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which god or goddess is associated with love and beauty in Greek mythology?",
+          "options": [
+            "Aphrodite",
+            "Hades",
+            "Hera",
+            "Artemis"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which Norse god is known for his trickery and mischief?",
+          "options": [
+            "Loki",
+            "Odin",
+            "Thor",
+            "Freya"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "In Egyptian mythology, who is the god of the afterlife and the judge of souls?",
+          "options": [
+            "Osiris",
+            "Ra",
+            "Anubis",
+            "Isis"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which creature from Japanese folklore is a supernatural being with the ability to shape-shift into a fox?",
+          "options": [
+            "Kitsune",
+            "Oni",
+            "Yokai",
+            "Tengu"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which legendary hero is known for his archery skills and his role in the Trojan War?",
+          "options": [
+            "Odysseus",
+            "Achilles",
+            "Perseus",
+            "Hector"
+          ],
+          "answer": 1,
+          "isMultiple": false
+        },
+        {
+          "question": "In Hindu mythology, who is the supreme god and creator of the universe?",
+          "options": [
+            "Brahma",
+            "Shiva",
+            "Vishnu",
+            "Krishna"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which mythological creature is a horse with a single horn on its forehead?",
+          "options": [
+            "Unicorn",
+            "Pegasus",
+            "Centaur",
+            "Griffin"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which figure from Arthurian legend is the king of Camelot and the leader of the Knights of the Round Table?",
+          "options": [
+            "King Arthur",
+            "Merlin",
+            "Lancelot",
+            "Guinevere"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Famous quotes and their authors": [
+        {
+          "question": "Who said, 'The only way to do great work is to love what you do'?",
+          "options": [
+            "Steve Jobs",
+            "Bill Gates",
+            "Mark Zuckerberg",
+            "Elon Musk"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the quote, 'Be yourself; everyone else is already taken'?",
+          "options": [
+            "Oscar Wilde",
+            "William Shakespeare",
+            "Jane Austen",
+            "J.K. Rowling"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote, 'Two things are infinite: the universe and human stupidity; and I'm not sure about the universe'?",
+          "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Stephen Hawking",
+            "Mark Twain"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "Who said, 'The future belongs to those who believe in the beauty of their dreams'?",
+          "options": [
+            "Eleanor Roosevelt",
+            "Rosa Parks",
+            "Amelia Earhart",
+            "Malala Yousafzai"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the quote, 'In three words I can sum up everything I've learned about life: it goes on'?",
+          "options": [
+            "Robert Frost",
+            "Maya Angelou",
+            "Emily Dickinson",
+            "Pablo Neruda"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who said, 'The greatest glory in living lies not in never falling, but in rising every time we fall'?",
+          "options": [
+            "Nelson Mandela",
+            "Mahatma Gandhi",
+            "Martin Luther King Jr.",
+            "Winston Churchill"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote, 'The only thing necessary for the triumph of evil is for good men to do nothing'?",
+          "options": [
+            "Edmund Burke",
+            "John Locke",
+            "Thomas Jefferson",
+            "Voltaire"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who said, 'It does not do to dwell on dreams and forget to live'?",
+          "options": [
+            "J.R.R. Tolkien",
+            "C.S. Lewis",
+            "George Orwell",
+            "J.K. Rowling"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of the quote, 'Life is what happens when you're busy making other plans'?",
+          "options": [
+            "John Lennon",
+            "Bob Marley",
+            "Elvis Presley",
+            "Freddie Mercury"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which author wrote, 'The only way out of the labyrinth of suffering is to forgive'?",
+          "options": [
+            "John Green",
+            "J.D. Salinger",
+            "Harper Lee",
+            "Toni Morrison"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "World records": [
+        {
+          "question": "Which athlete holds the world record for the fastest 100-meter sprint?",
+          "options": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Tyson Gay",
+            "Yohan Blake"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who has the highest career home run record in Major League Baseball?",
+          "options": [
+            "Barry Bonds",
+            "Babe Ruth",
+            "Hank Aaron",
+            "Alex Rodriguez"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country holds the record for the most FIFA World Cup wins?",
+          "options": [
+            "Brazil",
+            "Germany",
+            "Italy",
+            "Argentina"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the most Grand Slam titles in men's tennis?",
+          "options": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Pete Sampras"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Which swimmer has the most Olympic gold medals in history?",
+          "options": [
+            "Michael Phelps",
+            "Mark Spitz",
+            "Ian Thorpe",
+            "Ryan Lochte"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who set the record for the highest individual score in Test cricket?",
+          "options": [
+            "Brian Lara",
+            "Sachin Tendulkar",
+            "Don Bradman",
+            "Matthew Hayden"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which team holds the record for the longest winning streak in NBA history?",
+          "options": [
+            "Golden State Warriors",
+            "Chicago Bulls",
+            "Los Angeles Lakers",
+            "Boston Celtics"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Who has the highest career point total in the National Hockey League (NHL)?",
+          "options": [
+            "Wayne Gretzky",
+            "Mario Lemieux",
+            "Jaromir Jagr",
+            "Gordie Howe"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "Which country holds the record for the most Olympic gold medals in gymnastics?",
+          "options": [
+            "Soviet Union",
+            "United States",
+            "China",
+            "Romania"
+          ],
+          "answer": 2,
+          "isMultiple": false
+        },
+        {
+          "question": "Who holds the record for the most goals scored in a single season in European club football?",
+          "options": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Gerd Muller",
+            "Luis Suarez"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ],
+      "Brain teasers and riddles": [
+        {
+          "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+          "options": [
+            "Echo",
+            "Whistle",
+            "Ghost",
+            "Shadow"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What has keys but can't open locks?",
+          "options": [
+            "Keyboard",
+            "Piano",
+            "Map",
+            "Clock"
+          ],
+          "answer": 3,
+          "isMultiple": false
+        },
+        {
+          "question": "I have cities but no houses, forests but no trees, and rivers but no water. What am I?",
+          "options": [
+            "Map",
+            "Globe",
+            "Book",
+            "Dream"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "The more you take, the more you leave behind. What am I?",
+          "options": [
+            "Footsteps",
+            "Memories",
+            "Money",
+            "Breath"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "I have keys but can't open locks. I have space but no room. You can enter but can't go outside. What am I?",
+          "options": [
+            "Computer",
+            "Calculator",
+            "Internet",
+            "Keyboard"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What can travel around the world while staying in a corner?",
+          "options": [
+            "Stamp",
+            "Airplane",
+            "Satellite",
+            "Postcard"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What can you catch but not throw?",
+          "options": [
+            "Cold",
+            "Fish",
+            "Ball",
+            "Breath"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+          "options": [
+            "Pencil",
+            "Phone",
+            "Diamond",
+            "Camera"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "I am always hungry, I must always be fed. The finger I touch, will soon turn red. What am I?",
+          "options": [
+            "Fire",
+            "Vampire",
+            "Lion",
+            "Wind"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        },
+        {
+          "question": "What has a heart that doesn't beat?",
+          "options": [
+            "Artichoke",
+            "Clock",
+            "Stone",
+            "Robot"
+          ],
+          "answer": 0,
+          "isMultiple": false
+        }
+      ]
+    }
+  }
