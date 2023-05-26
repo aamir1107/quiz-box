@@ -6,12 +6,6 @@ import Modal from '@mui/material/Modal';
 
 
 
-
-
-
-
-
-
 function MainPage() {
     const [categories] = useState(Object.keys(data))
     const [selectedCategory, setSelectedCategory] = useState('')
@@ -41,13 +35,6 @@ function MainPage() {
                 {categories.map(cate => (<div key={cate} className={classes.categories} onClick={() => handleOpen(cate)} >{cate}</div>))}
 
             </div>
-
-
-
-
-
-
-
 
 
             <Modal
