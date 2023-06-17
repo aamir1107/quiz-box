@@ -1,6 +1,8 @@
-  {
-    "General Knowledge": {
-      "World capitals": [
+{
+  "General Knowledge": {
+    "World capitals": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "What is the capital of Afghanistan?",
           "options": [
@@ -12,7 +14,8 @@
           "answer": [
             0
           ],
-          "isMultiple": false
+          "isMultiple": false,
+          "userSelectedAnswer": []
         },
         {
           "question": "What is the capital of Argentina?",
@@ -25,7 +28,8 @@
           "answer": [
             0
           ],
-          "isMultiple": false
+          "isMultiple": false,
+          "userSelectedAnswer": []
         },
         {
           "question": "What is the capital of Australia?",
@@ -38,13 +42,1272 @@
           "answer": [
             1
           ],
-          "isMultiple": false
+          "isMultiple": false,
+          "userSelectedAnswer": []
         },
         {
           "question": "What is the capital of Brazil?",
           "options": [
             "Sao Paulo",
             "Rio de Janeiro",
+            "Brasilia",
+            "Salvador"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of Canada?",
+          "options": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of China?",
+          "options": [
+            "Beijing",
+            "Shanghai",
+            "Hong Kong",
+            "Tokyo"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of Egypt?",
+          "options": [
+            "Cairo",
+            "Alexandria",
+            "Luxor",
+            "Giza"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "Marseille",
+            "Lyon",
+            "Toulouse"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of Germany?",
+          "options": [
+            "Berlin",
+            "Hamburg",
+            "Munich",
+            "Frankfurt"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        },
+        {
+          "question": "What is the capital of India?",
+          "options": [
+            "New Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Bangalore"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false,
+          "userSelectedAnswer": []
+        }
+      ]
+    },
+    "Famous landmarks": {
+      "timeDuration": 12,
+      "questions": [
+        {
+          "question": "Which famous landmark is located in Egypt?",
+          "options": [
+            "Great Wall of China",
+            "Eiffel Tower",
+            "Taj Mahal",
+            "Pyramids of Giza"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in France?",
+          "options": [
+            "Machu Picchu",
+            "Colosseum",
+            "Acropolis of Athens",
+            "Eiffel Tower"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in India?",
+          "options": [
+            "Statue of Liberty",
+            "Sydney Opera House",
+            "Machu Picchu",
+            "Taj Mahal"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Italy?",
+          "options": [
+            "Burj Khalifa",
+            "Petra",
+            "Stonehenge",
+            "Colosseum"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Brazil?",
+          "options": [
+            "Big Ben",
+            "Christ the Redeemer",
+            "Angkor Wat",
+            "Great Wall of China"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in the United States?",
+          "options": [
+            "Machu Picchu",
+            "Golden Gate Bridge",
+            "Hagia Sophia",
+            "Sydney Opera House"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in China?",
+          "options": [
+            "Taj Mahal",
+            "Pyramids of Giza",
+            "Great Wall of China",
+            "Statue of Liberty"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in the United Kingdom?",
+          "options": [
+            "Sagrada Familia",
+            "Stonehenge",
+            "Colosseum",
+            "Burj Khalifa"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Spain?",
+          "options": [
+            "Hagia Sophia",
+            "Petra",
+            "Sagrada Familia",
+            "Great Wall of China"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Peru?",
+          "options": [
+            "Eiffel Tower",
+            "Angkor Wat",
+            "Machu Picchu",
+            "Golden Gate Bridge"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Greece?",
+          "options": [
+            "Acropolis of Athens",
+            "Statue of Liberty",
+            "Christ the Redeemer",
+            "Taj Mahal"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which famous landmark is located in Australia?",
+          "options": [
+            "Pyramids of Giza",
+            "Sydney Opera House",
+            "Angkor Wat",
+            "Eiffel Tower"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Historical events and dates": {
+      "timeDuration": 10,
+      "questions": [
+        {
+          "question": "Which historical event occurred on July 4, 1776?",
+          "options": [
+            "American Revolution begins",
+            "Signing of the Declaration of Independence",
+            "French Revolution begins",
+            "Boston Tea Party"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on October 14, 1066?",
+          "options": [
+            "Battle of Hastings",
+            "Signing of the Magna Carta",
+            "Gutenberg prints the Bible",
+            "Spanish Armada defeated"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on December 7, 1941?",
+          "options": [
+            "D-Day invasion",
+            "Atomic bombing of Hiroshima",
+            "Attack on Pearl Harbor",
+            "Berlin Wall falls"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on July 20, 1969?",
+          "options": [
+            "Assassination of John F. Kennedy",
+            "First human moon landing",
+            "Berlin Airlift begins",
+            "End of World War II"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on June 6, 1944?",
+          "options": [
+            "Assassination of Archduke Franz Ferdinand",
+            "Boston Tea Party",
+            "D-Day invasion",
+            "Russian Revolution begins"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on April 15, 1912?",
+          "options": [
+            "Great Fire of London",
+            "Stock Market Crash of 1929",
+            "Sinking of the Titanic",
+            "Discovery of America by Christopher Columbus"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on November 9, 1989?",
+          "options": [
+            "Fall of the Berlin Wall",
+            "End of apartheid in South Africa",
+            "Assassination of Martin Luther King Jr.",
+            "Cuban Missile Crisis"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on September 1, 1939?",
+          "options": [
+            "Assassination of Julius Caesar",
+            "World War I begins",
+            "Signing of the Treaty of Versailles",
+            "World War II begins"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on December 17, 1903?",
+          "options": [
+            "Invention of the telephone",
+            "Signing of the Emancipation Proclamation",
+            "Wright brothers' first flight",
+            "Boston Massacre"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which historical event occurred on October 24, 1929?",
+          "options": [
+            "Attack on Pearl Harbor",
+            "Bombing of Hiroshima",
+            "Great Depression begins",
+            "Moon landing"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Science & technology facts": {
+      "timeDuration": 13,
+      "questions": [
+        {
+          "question": "What is the smallest unit of matter?",
+          "options": [
+            "Atom",
+            "Molecule",
+            "Cell",
+            "Proton"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Jupiter",
+            "Mars",
+            "Saturn"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of converting a solid directly into a gas called?",
+          "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Vaporization"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which scientist proposed the theory of general relativity?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Galileo Galilei"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which element is the main constituent of the Earth's atmosphere?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon",
+            "Hydrogen"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "options": [
+            "Heart",
+            "Brain",
+            "Liver",
+            "Skin"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which animal is known for its ability to camouflage itself?",
+          "options": [
+            "Chameleon",
+            "Kangaroo",
+            "Elephant",
+            "Giraffe"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the process of plants converting sunlight into energy called?",
+          "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Fertilization",
+            "Pollination"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which planet is the largest in our solar system?",
+          "options": [
+            "Venus",
+            "Jupiter",
+            "Mars",
+            "Saturn"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the unit of electric current?",
+          "options": [
+            "Volt",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which scientist is known for his laws of motion?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Galileo Galilei"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the chemical symbol for the element gold?",
+          "options": [
+            "Go",
+            "Ag",
+            "Au",
+            "Pt"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which type of energy is stored in an object due to its position?",
+          "options": [
+            "Potential energy",
+            "Kinetic energy",
+            "Thermal energy",
+            "Nuclear energy"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Popular books and authors": {
+      "timeDuration": 11,
+      "questions": [
+        {
+          "question": "Who is the author of the Harry Potter series?",
+          "options": [
+            "J.K. Rowling",
+            "George R.R. Martin",
+            "Stephen King",
+            "Dan Brown"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "Ernest Hemingway",
+            "F. Scott Fitzgerald",
+            "Mark Twain"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'Pride and Prejudice'?",
+          "options": [
+            "Jane Austen",
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Virginia Woolf"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the book '1984'?",
+          "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Fyodor Dostoevsky"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "John Steinbeck",
+            "William Faulkner"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the 'Lord of the Rings' trilogy?",
+          "options": [
+            "J.R.R. Tolkien",
+            "C.S. Lewis",
+            "George R.R. Martin",
+            "Philip Pullman"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Catcher in the Rye'?",
+          "options": [
+            "J.D. Salinger",
+            "Mark Twain",
+            "Charles Dickens",
+            "Herman Melville"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'Jane Eyre'?",
+          "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Jane Austen",
+            "Louisa May Alcott"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Chronicles of Narnia' series?",
+          "options": [
+            "C.S. Lewis",
+            "J.R.R. Tolkien",
+            "Roald Dahl",
+            "Neil Gaiman"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the book 'Moby-Dick'?",
+          "options": [
+            "Herman Melville",
+            "Mark Twain",
+            "Nathaniel Hawthorne",
+            "Ralph Waldo Emerson"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the author of 'The Hunger Games' trilogy?",
+          "options": [
+            "Suzanne Collins",
+            "Veronica Roth",
+            "J.K. Rowling",
+            "Stephenie Meyer"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Art and literature": {
+      "timeDuration": 12,
+      "questions": [
+        {
+          "question": "What is the name of the painting that depicts the Last Supper?",
+          "options": [
+            "The Mona Lisa",
+            "The Last Supper",
+            "The Birth of Venus",
+            "The Starry Night"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'The Great Gatsby'?",
+          "options": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "William Faulkner",
+            "Virginia Woolf"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Starry Night'?",
+          "options": [
+            "Vincent van Gogh",
+            "Claude Monet",
+            "Leonardo da Vinci",
+            "Rembrandt"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the sculpture that depicts David?",
+          "options": [
+            "The Thinker",
+            "David",
+            "The Pieta",
+            "Venus de Milo"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the play 'Hamlet'?",
+          "options": [
+            "William Shakespeare",
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "John Webster"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Mona Lisa'?",
+          "options": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Rembrandt",
+            "Vincent van Gogh"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the poem that begins with the line 'Stopping by Woods on a Snowy Evening'?",
+          "options": [
+            "The Road Not Taken",
+            "Stopping by Woods on a Snowy Evening",
+            "The Raven",
+            "O Captain! My Captain!"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "options": [
+            "Harper Lee",
+            "Toni Morrison",
+            "Alice Walker",
+            "Maya Angelou"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Birth of Venus'?",
+          "options": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Rembrandt",
+            "Sandro Botticelli"
+          ],
+          "answer": [
+            3
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who wrote the play 'Romeo and Juliet'?",
+          "options": [
+            "William Shakespeare",
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "John Webster"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who painted 'The Thinker'?",
+          "options": [
+            "Rodin",
+            "Michelangelo",
+            "Rembrandt",
+            "Vincent van Gogh"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the poem that begins with the line 'The Raven'?",
+          "options": [
+            "The Road Not Taken",
+            "Stopping by Woods on a Snowy Evening",
+            "The Raven",
+            "O Captain! My Captain!"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Sports trivia": {
+      "timeDuration": 13,
+      "questions": [
+        {
+          "question": "What is the name of the stadium that is home to the New York Yankees?",
+          "options": [
+            "Yankee Stadium",
+            "Fenway Park",
+            "Dodger Stadium",
+            "Wrigley Field"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous baseball player of all time?",
+          "options": [
+            "Babe Ruth",
+            "Ty Cobb",
+            "Willie Mays",
+            "Jackie Robinson"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the football team that has won the most Super Bowls?",
+          "options": [
+            "New England Patriots",
+            "Pittsburgh Steelers",
+            "Dallas Cowboys",
+            "San Francisco 49ers"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous basketball player of all time?",
+          "options": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kobe Bryant",
+            "Wilt Chamberlain"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the football team that has won the most NFL championships?",
+          "options": [
+            "Green Bay Packers",
+            "Pittsburgh Steelers",
+            "New York Giants",
+            "Chicago Bears"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous tennis player of all time?",
+          "options": [
+            "Serena Williams",
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Djokovic"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the golf course that is home to the Masters Tournament?",
+          "options": [
+            "Augusta National Golf Club",
+            "Pebble Beach Golf Links",
+            "St. Andrews, Scotland",
+            " Whistling Straits Wisconsin"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous golfer of all time?",
+          "options": [
+            "Jack Nicklaus",
+            "Tiger Woods",
+            "Arnold Palmer",
+            "Gary Player"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the hockey team that has won the most Stanley Cups?",
+          "options": [
+            "Montreal Canadiens",
+            "Toronto Maple Leafs",
+            " Detroit Red Wings",
+            "Boston Bruins"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous hockey player of all time?",
+          "options": [
+            "Wayne Gretzky",
+            "Mario Lemieux",
+            " Bobby Orr",
+            " Gordie Howe"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the soccer team that has won the most World Cups?",
+          "options": [
+            "Brazil",
+            "Germany",
+            "Italy",
+            "Argentina"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Who is the most famous soccer player of all time?",
+          "options": [
+            "Pele",
+            "Diego Maradona",
+            "Johan Cruyff",
+            "Zinedine Zidane"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the name of the basketball team that has won the most NBA championships?",
+          "options": [
+            "Boston Celtics",
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Golden State Warriors"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        }
+      ]
+    }
+  },
+  "Geography": {
+    "Continents and oceans": {
+      "timeDuration": 14,
+      "questions": [
+        {
+          "question": "Which is the largest continent by area?",
+          "options": [
+            "Asia",
+            "Africa",
+            "North America",
+            "South America"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the smallest continent by area?",
+          "options": [
+            "Australia",
+            "Antarctica",
+            "Europe",
+            "North America"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the most populous continent?",
+          "options": [
+            "Asia",
+            " Africa",
+            "Europe",
+            "North America"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the least populous continent?",
+          "options": [
+            "Antarctica",
+            "Australia",
+            "Europe",
+            "North America"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the largest ocean by area?",
+          "options": [
+            "Pacific Ocean",
+            " Atlantic Ocean",
+            "Indian Ocean",
+            " Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the smallest ocean by area?",
+          "options": [
+            "Arctic Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the deepest ocean?",
+          "options": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which is the oldest ocean?",
+          "options": [
+            "Pacific Ocean",
+            " Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Africa and South America?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Asia and Australia?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Antarctica and South America?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            1
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Europe and Africa?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Asia and North America?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            " Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "Which ocean is located between Antarctica and Australia?",
+          "options": [
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": [
+            0
+          ],
+          "isMultiple": false
+        }
+      ]
+    },
+    "Countries and their capitals": {
+      "timeDuration": 13,
+      "questions": [
+        {
+          "question": "What is the capital of Australia?",
+          "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "answer": [
+            2
+          ],
+          "isMultiple": false
+        },
+        {
+          "question": "What is the capital of Brazil?",
+          "options": [
+            "Rio de Janeiro",
+            "Sao Paulo",
             "Brasilia",
             "Salvador"
           ],
@@ -72,1060 +1335,11 @@
             "Beijing",
             "Shanghai",
             "Hong Kong",
-            "Tokyo"
-          ],
-          "answer": [
-            0
-          ],
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of Egypt?",
-          "options": [
-            "Cairo",
-            "Alexandria",
-            "Luxor",
-            "Giza"
-          ],
-          "answer": [
-            0
-          ],
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of France?",
-          "options": [
-            "Paris",
-            "Marseille",
-            "Lyon",
-            "Toulouse"
-          ],
-          "answer": [
-            0
-          ],
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of Germany?",
-          "options": [
-            "Berlin",
-            "Hamburg",
-            "Munich",
-            "Frankfurt"
-          ],
-          "answer": [
-            0
-          ],
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of India?",
-          "options": [
-            "New Delhi",
-            "Mumbai",
-            "Kolkata",
-            "Bangalore"
-          ],
-          "answer": [
-            0
-          ],
-          "isMultiple": false
-        }
-      ],
-      "Famous landmarks": [
-        {
-          "question": "Which famous landmark is located in Egypt?",
-          "options": [
-            "Great Wall of China",
-            "Eiffel Tower",
-            "Taj Mahal",
-            "Pyramids of Giza"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in France?",
-          "options": [
-            "Machu Picchu",
-            "Colosseum",
-            "Acropolis of Athens",
-            "Eiffel Tower"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in India?",
-          "options": [
-            "Statue of Liberty",
-            "Sydney Opera House",
-            "Machu Picchu",
-            "Taj Mahal"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Italy?",
-          "options": [
-            "Burj Khalifa",
-            "Petra",
-            "Stonehenge",
-            "Colosseum"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Brazil?",
-          "options": [
-            "Big Ben",
-            "Christ the Redeemer",
-            "Angkor Wat",
-            "Great Wall of China"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in the United States?",
-          "options": [
-            "Machu Picchu",
-            "Golden Gate Bridge",
-            "Hagia Sophia",
-            "Sydney Opera House"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in China?",
-          "options": [
-            "Taj Mahal",
-            "Pyramids of Giza",
-            "Great Wall of China",
-            "Statue of Liberty"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in the United Kingdom?",
-          "options": [
-            "Sagrada Familia",
-            "Stonehenge",
-            "Colosseum",
-            "Burj Khalifa"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Spain?",
-          "options": [
-            "Hagia Sophia",
-            "Petra",
-            "Sagrada Familia",
-            "Great Wall of China"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Peru?",
-          "options": [
-            "Eiffel Tower",
-            "Angkor Wat",
-            "Machu Picchu",
-            "Golden Gate Bridge"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Greece?",
-          "options": [
-            "Acropolis of Athens",
-            "Statue of Liberty",
-            "Christ the Redeemer",
-            "Taj Mahal"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which famous landmark is located in Australia?",
-          "options": [
-            "Pyramids of Giza",
-            "Sydney Opera House",
-            "Angkor Wat",
-            "Eiffel Tower"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        }
-      ],
-      "Historical events and dates": [
-        {
-          "question": "Which historical event occurred on July 4, 1776?",
-          "options": [
-            "American Revolution begins",
-            "Signing of the Declaration of Independence",
-            "French Revolution begins",
-            "Boston Tea Party"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on October 14, 1066?",
-          "options": [
-            "Battle of Hastings",
-            "Signing of the Magna Carta",
-            "Gutenberg prints the Bible",
-            "Spanish Armada defeated"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on December 7, 1941?",
-          "options": [
-            "D-Day invasion",
-            "Atomic bombing of Hiroshima",
-            "Attack on Pearl Harbor",
-            "Berlin Wall falls"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on July 20, 1969?",
-          "options": [
-            "Assassination of John F. Kennedy",
-            "First human moon landing",
-            "Berlin Airlift begins",
-            "End of World War II"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on June 6, 1944?",
-          "options": [
-            "Assassination of Archduke Franz Ferdinand",
-            "Boston Tea Party",
-            "D-Day invasion",
-            "Russian Revolution begins"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on April 15, 1912?",
-          "options": [
-            "Great Fire of London",
-            "Stock Market Crash of 1929",
-            "Sinking of the Titanic",
-            "Discovery of America by Christopher Columbus"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on November 9, 1989?",
-          "options": [
-            "Fall of the Berlin Wall",
-            "End of apartheid in South Africa",
-            "Assassination of Martin Luther King Jr.",
-            "Cuban Missile Crisis"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on September 1, 1939?",
-          "options": [
-            "Assassination of Julius Caesar",
-            "World War I begins",
-            "Signing of the Treaty of Versailles",
-            "World War II begins"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on December 17, 1903?",
-          "options": [
-            "Invention of the telephone",
-            "Signing of the Emancipation Proclamation",
-            "Wright brothers' first flight",
-            "Boston Massacre"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which historical event occurred on October 24, 1929?",
-          "options": [
-            "Attack on Pearl Harbor",
-            "Bombing of Hiroshima",
-            "Great Depression begins",
-            "Moon landing"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        }
-      ],
-      "Science & technology facts": [
-        {
-          "question": "What is the smallest unit of matter?",
-          "options": [
-            "Atom",
-            "Molecule",
-            "Cell",
-            "Proton"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which planet is known as the Red Planet?",
-          "options": [
-            "Venus",
-            "Jupiter",
-            "Mars",
-            "Saturn"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the process of converting a solid directly into a gas called?",
-          "options": [
-            "Evaporation",
-            "Sublimation",
-            "Condensation",
-            "Vaporization"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which scientist proposed the theory of general relativity?",
-          "options": [
-            "Isaac Newton",
-            "Albert Einstein",
-            "Niels Bohr",
-            "Galileo Galilei"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which element is the main constituent of the Earth's atmosphere?",
-          "options": [
-            "Oxygen",
-            "Nitrogen",
-            "Carbon",
-            "Hydrogen"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the largest organ in the human body?",
-          "options": [
-            "Heart",
-            "Brain",
-            "Liver",
-            "Skin"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Which animal is known for its ability to camouflage itself?",
-          "options": [
-            "Chameleon",
-            "Kangaroo",
-            "Elephant",
-            "Giraffe"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the process of plants converting sunlight into energy called?",
-          "options": [
-            "Photosynthesis",
-            "Respiration",
-            "Fertilization",
-            "Pollination"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which planet is the largest in our solar system?",
-          "options": [
-            "Venus",
-            "Jupiter",
-            "Mars",
-            "Saturn"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the unit of electric current?",
-          "options": [
-            "Volt",
-            "Ampere",
-            "Watt",
-            "Ohm"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which scientist is known for his laws of motion?",
-          "options": [
-            "Isaac Newton",
-            "Albert Einstein",
-            "Niels Bohr",
-            "Galileo Galilei"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the chemical symbol for the element gold?",
-          "options": [
-            "Go",
-            "Ag",
-            "Au",
-            "Pt"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "Which type of energy is stored in an object due to its position?",
-          "options": [
-            "Potential energy",
-            "Kinetic energy",
-            "Thermal energy",
-            "Nuclear energy"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        }
-      ],
-      "Popular books and authors": [
-        {
-          "question": "Who is the author of the Harry Potter series?",
-          "options": [
-            "J.K. Rowling",
-            "George R.R. Martin",
-            "Stephen King",
-            "Dan Brown"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
-          "options": [
-            "Harper Lee",
-            "Ernest Hemingway",
-            "F. Scott Fitzgerald",
-            "Mark Twain"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the author of 'Pride and Prejudice'?",
-          "options": [
-            "Jane Austen",
-            "Charlotte Brontë",
-            "Emily Brontë",
-            "Virginia Woolf"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the book '1984'?",
-          "options": [
-            "George Orwell",
-            "Aldous Huxley",
-            "Ray Bradbury",
-            "Fyodor Dostoevsky"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the author of 'The Great Gatsby'?",
-          "options": [
-            "F. Scott Fitzgerald",
-            "Ernest Hemingway",
-            "John Steinbeck",
-            "William Faulkner"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the 'Lord of the Rings' trilogy?",
-          "options": [
-            "J.R.R. Tolkien",
-            "C.S. Lewis",
-            "George R.R. Martin",
-            "Philip Pullman"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the author of 'The Catcher in the Rye'?",
-          "options": [
-            "J.D. Salinger",
-            "Mark Twain",
-            "Charles Dickens",
-            "Herman Melville"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the novel 'Jane Eyre'?",
-          "options": [
-            "Charlotte Brontë",
-            "Emily Brontë",
-            "Jane Austen",
-            "Louisa May Alcott"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the author of 'The Chronicles of Narnia' series?",
-          "options": [
-            "C.S. Lewis",
-            "J.R.R. Tolkien",
-            "Roald Dahl",
-            "Neil Gaiman"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the book 'Moby-Dick'?",
-          "options": [
-            "Herman Melville",
-            "Mark Twain",
-            "Nathaniel Hawthorne",
-            "Ralph Waldo Emerson"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the author of 'The Hunger Games' trilogy?",
-          "options": [
-            "Suzanne Collins",
-            "Veronica Roth",
-            "J.K. Rowling",
-            "Stephenie Meyer"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        }
-      ],
-      "Art and literature": [
-        {
-          "question": "What is the name of the painting that depicts the Last Supper?",
-          "options": [
-            "The Mona Lisa",
-            "The Last Supper",
-            "The Birth of Venus",
-            "The Starry Night"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the novel 'The Great Gatsby'?",
-          "options": [
-            "F. Scott Fitzgerald",
-            "Ernest Hemingway",
-            "William Faulkner",
-            "Virginia Woolf"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who painted 'The Starry Night'?",
-          "options": [
-            "Vincent van Gogh",
-            "Claude Monet",
-            "Leonardo da Vinci",
-            "Rembrandt"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the sculpture that depicts David?",
-          "options": [
-            "The Thinker",
-            "David",
-            "The Pieta",
-            "Venus de Milo"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the play 'Hamlet'?",
-          "options": [
-            "William Shakespeare",
-            "Christopher Marlowe",
-            "Ben Jonson",
-            "John Webster"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who painted 'The Mona Lisa'?",
-          "options": [
-            "Leonardo da Vinci",
-            "Michelangelo",
-            "Rembrandt",
-            "Vincent van Gogh"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the poem that begins with the line 'Stopping by Woods on a Snowy Evening'?",
-          "options": [
-            "The Road Not Taken",
-            "Stopping by Woods on a Snowy Evening",
-            "The Raven",
-            "O Captain! My Captain!"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
-          "options": [
-            "Harper Lee",
-            "Toni Morrison",
-            "Alice Walker",
-            "Maya Angelou"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who painted 'The Birth of Venus'?",
-          "options": [
-            "Leonardo da Vinci",
-            "Michelangelo",
-            "Rembrandt",
-            "Sandro Botticelli"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "Who wrote the play 'Romeo and Juliet'?",
-          "options": [
-            "William Shakespeare",
-            "Christopher Marlowe",
-            "Ben Jonson",
-            "John Webster"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who painted 'The Thinker'?",
-          "options": [
-            "Rodin",
-            "Michelangelo",
-            "Rembrandt",
-            "Vincent van Gogh"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the poem that begins with the line 'The Raven'?",
-          "options": [
-            "The Road Not Taken",
-            "Stopping by Woods on a Snowy Evening",
-            "The Raven",
-            "O Captain! My Captain!"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        }
-      ],
-      "Sports trivia": [
-        {
-          "question": "What is the name of the stadium that is home to the New York Yankees?",
-          "options": [
-            "Yankee Stadium",
-            "Fenway Park",
-            "Dodger Stadium",
-            "Wrigley Field"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous baseball player of all time?",
-          "options": [
-            "Babe Ruth",
-            "Ty Cobb",
-            "Willie Mays",
-            "Jackie Robinson"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the football team that has won the most Super Bowls?",
-          "options": [
-            "New England Patriots",
-            "Pittsburgh Steelers",
-            "Dallas Cowboys",
-            "San Francisco 49ers"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous basketball player of all time?",
-          "options": [
-            "Michael Jordan",
-            "LeBron James",
-            "Kobe Bryant",
-            "Wilt Chamberlain"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the football team that has won the most NFL championships?",
-          "options": [
-            "Green Bay Packers",
-            "Pittsburgh Steelers",
-            "New York Giants",
-            "Chicago Bears"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous tennis player of all time?",
-          "options": [
-            "Serena Williams",
-            "Roger Federer",
-            "Rafael Nadal",
-            "Novak Djokovic"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the golf course that is home to the Masters Tournament?",
-          "options": [
-            "Augusta National Golf Club",
-            "Pebble Beach Golf Links",
-            "St. Andrews, Scotland",
-            " Whistling Straits Wisconsin"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous golfer of all time?",
-          "options": [
-            "Jack Nicklaus",
-            "Tiger Woods",
-            "Arnold Palmer",
-            "Gary Player"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the hockey team that has won the most Stanley Cups?",
-          "options": [
-            "Montreal Canadiens",
-            "Toronto Maple Leafs",
-            " Detroit Red Wings",
-            "Boston Bruins"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous hockey player of all time?",
-          "options": [
-            "Wayne Gretzky",
-            "Mario Lemieux",
-            " Bobby Orr",
-            " Gordie Howe"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the soccer team that has won the most World Cups?",
-          "options": [
-            "Brazil",
-            "Germany",
-            "Italy",
-            "Argentina"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Who is the most famous soccer player of all time?",
-          "options": [
-            "Pele",
-            "Diego Maradona",
-            "Johan Cruyff",
-            "Zinedine Zidane"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the name of the basketball team that has won the most NBA championships?",
-          "options": [
-            "Boston Celtics",
-            "Los Angeles Lakers",
-            "Chicago Bulls",
-            "Golden State Warriors"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        }
-      ]
-    },
-    "Geography": {
-      "Continents and oceans": [
-        {
-          "question": "Which is the largest continent by area?",
-          "options": [
-            "Asia",
-            "Africa",
-            "North America",
-            "South America"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the smallest continent by area?",
-          "options": [
-            "Australia",
-            "Antarctica",
-            "Europe",
-            "North America"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the most populous continent?",
-          "options": [
-            "Asia",
-            " Africa",
-            "Europe",
-            "North America"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the least populous continent?",
-          "options": [
-            "Antarctica",
-            "Australia",
-            "Europe",
-            "North America"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the largest ocean by area?",
-          "options": [
-            "Pacific Ocean",
-            " Atlantic Ocean",
-            "Indian Ocean",
-            " Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the smallest ocean by area?",
-          "options": [
-            "Arctic Ocean",
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Pacific Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the deepest ocean?",
-          "options": [
-            "Pacific Ocean",
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which is the oldest ocean?",
-          "options": [
-            "Pacific Ocean",
-            " Atlantic Ocean",
-            "Indian Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Africa and South America?",
-          "options": [
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Pacific Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Asia and Australia?",
-          "options": [
-            "Pacific Ocean",
-            "Indian Ocean",
-            "Atlantic Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Antarctica and South America?",
-          "options": [
-            "Pacific Ocean",
-            "Indian Ocean",
-            "Atlantic Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 1,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Europe and Africa?",
-          "options": [
-            "Atlantic Ocean",
-            "Indian Ocean",
-            "Pacific Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Asia and North America?",
-          "options": [
-            "Pacific Ocean",
-            "Indian Ocean",
-            "Atlantic Ocean",
-            " Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        },
-        {
-          "question": "Which ocean is located between Antarctica and Australia?",
-          "options": [
-            "Pacific Ocean",
-            "Indian Ocean",
-            "Atlantic Ocean",
-            "Arctic Ocean"
-          ],
-          "answer": 0,
-          "isMultiple": false
-        }
-      ],
-      "Countries and their capitals": [
-        {
-          "question": "What is the capital of Australia?",
-          "options": [
-            "Sydney",
-            "Melbourne",
-            "Canberra",
-            "Perth"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of Brazil?",
-          "options": [
-            "Rio de Janeiro",
-            "Sao Paulo",
-            "Brasilia",
-            "Salvador"
-          ],
-          "answer": 2,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of Canada?",
-          "options": [
-            "Toronto",
-            "Vancouver",
-            "Montreal",
-            "Ottawa"
-          ],
-          "answer": 3,
-          "isMultiple": false
-        },
-        {
-          "question": "What is the capital of China?",
-          "options": [
-            "Beijing",
-            "Shanghai",
-            "Hong Kong",
             "Guangzhou"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1136,7 +1350,9 @@
             "Luxor",
             "Giza"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1147,7 +1363,9 @@
             "Lyon",
             "Nice"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1158,7 +1376,9 @@
             "Hamburg",
             "Frankfurt"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1169,7 +1389,9 @@
             "Kolkata",
             "Chennai"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1180,7 +1402,9 @@
             "Naples",
             "Florence"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1191,7 +1415,9 @@
             "Osaka",
             "Yokohama"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1202,7 +1428,9 @@
             "Monterrey",
             "Cancun"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1213,7 +1441,9 @@
             "Novosibirsk",
             "Yekaterinburg"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1224,11 +1454,16 @@
             "Pretoria",
             "Durban"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         }
-      ],
-      "Major cities": [
+      ]
+    },
+    "Major cities": {
+      "timeDuration": 13,
+      "questions": [
         {
           "question": "Which city is the capital of France?",
           "options": [
@@ -1237,7 +1472,9 @@
             "London",
             "Berlin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1248,7 +1485,9 @@
             "Chicago",
             "Houston"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1259,7 +1498,9 @@
             "Osaka",
             "Yokohama"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1270,7 +1511,9 @@
             "Venice",
             "Florence"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1281,7 +1524,9 @@
             "Canberra",
             "Perth"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1292,7 +1537,9 @@
             "Barcelona",
             "Vienna"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1303,7 +1550,9 @@
             "Novosibirsk",
             "Yekaterinburg"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1314,7 +1563,9 @@
             "Los Angeles",
             "Houston"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1325,7 +1576,9 @@
             "Brasilia",
             "Salvador"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1336,7 +1589,9 @@
             "Chicago",
             "Houston"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1347,7 +1602,9 @@
             "Montreal",
             "Ottawa"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1358,7 +1615,9 @@
             "Rome",
             "London"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1369,11 +1628,16 @@
             "Hong Kong",
             "Guangzhou"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Famous mountains and rivers": [
+      ]
+    },
+    "Famous mountains and rivers": {
+      "timeDuration": 12,
+      "questions": [
         {
           "question": "Which is the highest mountain in the world?",
           "options": [
@@ -1382,7 +1646,9 @@
             "Mount McKinley",
             "Mount Fuji"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1393,7 +1659,9 @@
             "Zambezi River",
             "Niger River"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1404,7 +1672,9 @@
             "Andes",
             "Alps"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1415,7 +1685,9 @@
             "Yangtze River",
             "Mississippi River"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1426,7 +1698,9 @@
             "Mount McKinley",
             "Mount Fuji"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1437,7 +1711,9 @@
             "Ganges River",
             "Yangtze River"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1448,7 +1724,9 @@
             "Himalayas",
             "Alps"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1459,7 +1737,9 @@
             "Yangtze River",
             "Mississippi River"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1470,7 +1750,9 @@
             "Himalayas",
             "Alps"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1481,7 +1763,9 @@
             "Rhine River",
             "Thames River"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1492,7 +1776,9 @@
             "Himalayas",
             "Alps"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1503,11 +1789,16 @@
             "Yangtze River",
             "Mississippi River"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Flags of different countries": [
+      ]
+    },
+    "Flags of different countries": {
+      "timeDuration": 11,
+      "questions": [
         {
           "question": "Which country does this flag belong to?",
           "image": "https://example.com/flag_image1.jpg",
@@ -1517,7 +1808,9 @@
             "Italy",
             "Spain"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1529,7 +1822,9 @@
             "South Korea",
             "India"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1541,7 +1836,9 @@
             "Canada",
             "Australia"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1553,7 +1850,9 @@
             "Argentina",
             "Mexico"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1565,7 +1864,9 @@
             "Denmark",
             "Finland"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1577,7 +1878,9 @@
             "Algeria",
             "Tunisia"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1589,7 +1892,9 @@
             "Belgium",
             "Netherlands"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1601,7 +1906,9 @@
             "Bulgaria",
             "Croatia"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1613,7 +1920,9 @@
             "Nigeria",
             "Ghana"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1625,7 +1934,9 @@
             "Chile",
             "Argentina"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1637,11 +1948,16 @@
             "Qatar",
             "Oman"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Landmarks and natural wonders": [
+      ]
+    },
+    "Landmarks and natural wonders": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "1. Which of the following is a landmark located in Italy?",
           "options": [
@@ -1650,7 +1966,10 @@
             "Colosseum"
           ],
           "correctAnswerIndex": 2,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "2. What is the tallest mountain in the world?",
@@ -1660,7 +1979,10 @@
             "Denali"
           ],
           "correctAnswerIndex": 0,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "3. Which of the following is a natural wonder located in South America?",
@@ -1670,7 +1992,10 @@
             "Machu Picchu"
           ],
           "correctAnswerIndex": 1,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "4. Which famous monument is located in Egypt?",
@@ -1680,7 +2005,10 @@
             "Pyramids of Giza"
           ],
           "correctAnswerIndex": 2,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "5. Which of the following is a natural wonder located in the United States?",
@@ -1690,7 +2018,10 @@
             "Great Barrier Reef"
           ],
           "correctAnswerIndex": 0,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "6. Where is the Great Wall located?",
@@ -1700,7 +2031,10 @@
             "Italy"
           ],
           "correctAnswerIndex": 0,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "7. Which iconic structure is located in France?",
@@ -1710,7 +2044,10 @@
             "Eiffel Tower"
           ],
           "correctAnswerIndex": 2,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "8. Which of the following is a natural wonder located in Africa?",
@@ -1720,7 +2057,10 @@
             "Machu Picchu"
           ],
           "correctAnswerIndex": 1,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "9. Where is the Taj Mahal located?",
@@ -1730,7 +2070,10 @@
             "France"
           ],
           "correctAnswerIndex": 0,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         },
         {
           "question": "10. Which of the following is a natural wonder located in Australia?",
@@ -1740,12 +2083,18 @@
             "Victoria Falls"
           ],
           "correctAnswerIndex": 1,
-          "isMultiple": false
+          "isMultiple": false,
+          "answer": [
+            null
+          ]
         }
       ]
-    },
-    "History": {
-      "Ancient civilizations": [
+    }
+  },
+  "History": {
+    "Ancient civilizations": {
+      "timeDuration": 7,
+      "questions": [
         {
           "question": "Which ancient civilization built the Great Pyramids of Giza?",
           "options": [
@@ -1754,7 +2103,9 @@
             "Egyptian Civilization",
             "Greek Civilization"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1765,7 +2116,9 @@
             "Aztec Civilization",
             "Roman Civilization"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1776,7 +2129,9 @@
             "Inca Civilization",
             "Persian Civilization"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1787,7 +2142,9 @@
             "Egyptian Civilization",
             "Indus Valley Civilization"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1798,7 +2155,9 @@
             "Sumerian Civilization",
             "Phoenician Civilization"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -1809,7 +2168,9 @@
             "Indus Valley Civilization",
             "Mesopotamian Civilization"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1820,11 +2181,16 @@
             "Roman Civilization",
             "Phoenician Civilization"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "World wars and their outcomes": [
+      ]
+    },
+    "World wars and their outcomes": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which World War resulted in the Treaty of Versailles?",
           "options": [
@@ -1833,7 +2199,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1844,7 +2212,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1855,7 +2225,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1866,7 +2238,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1877,7 +2251,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1888,7 +2264,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1899,7 +2277,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1910,7 +2290,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -1921,7 +2303,9 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -1932,11 +2316,16 @@
             "World War III",
             "Cold War"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         }
-      ],
-      "Famous historical figures": [
+      ]
+    },
+    "Famous historical figures": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who was the first President of the United States?",
           "options": [
@@ -1945,7 +2334,9 @@
             "Abraham Lincoln",
             "Benjamin Franklin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1956,7 +2347,9 @@
             "Vincent van Gogh",
             "Michelangelo"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1967,7 +2360,9 @@
             "Galileo Galilei",
             "Charles Darwin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1978,7 +2373,9 @@
             "Jane Austen",
             "Mark Twain"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -1989,7 +2386,9 @@
             "Mahatma Gandhi",
             "Barack Obama"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2000,7 +2399,9 @@
             "Plato",
             "Homer"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2011,7 +2412,9 @@
             "Queen Elizabeth I",
             "Queen Anne"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2022,7 +2425,9 @@
             "Yuri Gagarin",
             "John F. Kennedy"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2033,7 +2438,9 @@
             "Michelangelo",
             "Donatello"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2044,11 +2451,16 @@
             "Jean-Jacques Rousseau",
             "Marie Antoinette"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         }
-      ],
-      "Significant events and dates": [
+      ]
+    },
+    "Significant events and dates": {
+      "timeDuration": 9,
+      "questions": [
         {
           "question": "Which event occurred on October 29, 1929, leading to the Great Depression?",
           "options": [
@@ -2057,7 +2469,9 @@
             "Fall of the Berlin Wall",
             "Assassination of Archduke Franz Ferdinand"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2068,7 +2482,9 @@
             "End of World War II",
             "Declaration of Independence"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2079,7 +2495,9 @@
             "D-Day",
             "Emancipation Proclamation"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2090,7 +2508,9 @@
             "Berlin Wall Fall",
             "Ratification of the U.S. Constitution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2101,7 +2521,9 @@
             "9/11 Attacks",
             "Rosa Parks' Bus Boycott"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2112,7 +2534,9 @@
             "V-J Day",
             "French Revolution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2123,7 +2547,9 @@
             "Attack on Pearl Harbor",
             "Declaration of Independence"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2134,7 +2560,9 @@
             "Sinking of the Titanic",
             "Signing of the Emancipation Proclamation"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2145,11 +2573,16 @@
             "Boston Tea Party",
             "Independence Day"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         }
-      ],
-      "Revolutions and independence movements": [
+      ]
+    },
+    "Revolutions and independence movements": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which revolution resulted in the overthrow of the Russian monarchy and the establishment of the Soviet Union?",
           "options": [
@@ -2158,7 +2591,9 @@
             "Russian Revolution",
             "Mexican Revolution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2169,7 +2604,9 @@
             "American Revolution",
             "Chinese Revolution"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2180,7 +2617,9 @@
             "French Revolution",
             "Cuban Revolution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2191,7 +2630,9 @@
             "Israeli Independence Movement",
             "Chinese Revolution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2202,7 +2643,9 @@
             "Russian Revolution",
             "Chinese Revolution"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2213,7 +2656,9 @@
             "American Revolution",
             "Chinese Revolution"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2224,7 +2669,9 @@
             "French Revolution",
             "Cuban Revolution"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2235,7 +2682,9 @@
             "American Revolution",
             "Chinese Revolution"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2246,7 +2695,9 @@
             "Russian Revolution",
             "Mexican Revolution"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2257,13 +2708,18 @@
             "Vietnamese Independence Movement",
             "Chinese Revolution"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         }
       ]
-    },
-    "Science & Technology": {
-      "Basic physics and chemistry concepts": [
+    }
+  },
+  "Science & Technology": {
+    "Basic physics and chemistry concepts": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which subatomic particle has a positive charge?",
           "options": [
@@ -2272,7 +2728,9 @@
             "Electron",
             "Photon"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2283,7 +2741,9 @@
             "P = mv",
             "A = l x w"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2294,7 +2754,9 @@
             "Argon",
             "Hydrogen"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2305,7 +2767,9 @@
             "Ohm",
             "Watt"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2316,7 +2780,9 @@
             "Newton's Third Law",
             "Law of Conservation of Energy"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2327,7 +2793,9 @@
             "Iron",
             "Sulfur"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2338,7 +2806,9 @@
             "Density",
             "Pressure"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2349,7 +2819,9 @@
             "Condensation",
             "Sublimation"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2360,7 +2832,9 @@
             "Solar Power",
             "Nuclear Power"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2371,11 +2845,16 @@
             "Compound",
             "Ion"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Biology and human anatomy": [
+      ]
+    },
+    "Biology and human anatomy": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which of the following is responsible for carrying oxygen in the blood?",
           "options": [
@@ -2384,7 +2863,9 @@
             "Platelets",
             "Plasma"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2395,7 +2876,9 @@
             "Kidneys",
             "Pancreas"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2406,7 +2889,9 @@
             "Skin",
             "Heart"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2417,7 +2902,9 @@
             "Bones",
             "Blood Vessels"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2428,7 +2915,9 @@
             "Mitochondria",
             "Endoplasmic Reticulum"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2439,7 +2928,9 @@
             "Circulatory System",
             "Digestive System"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2450,7 +2941,9 @@
             "Fermentation",
             "Transpiration"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2461,7 +2954,9 @@
             "Ears",
             "Eyes"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2472,7 +2967,9 @@
             "Cerebrum",
             "Medulla Oblongata"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2483,11 +2980,16 @@
             "Mitochondria",
             "Vacuoles"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Space exploration": [
+      ]
+    },
+    "Space exploration": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which space agency successfully landed astronauts on the Moon?",
           "options": [
@@ -2496,7 +2998,9 @@
             "ISRO",
             "Roscosmos"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2507,7 +3011,9 @@
             "Galileo",
             "New Horizons"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2518,7 +3024,9 @@
             "Mars",
             "Saturn"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2529,7 +3037,9 @@
             "Apollo 11",
             "Vostok 1"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2540,7 +3050,9 @@
             "Spitzer Space Telescope",
             "Kepler Space Telescope"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2551,7 +3063,9 @@
             "Uranus",
             "Neptune"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2562,7 +3076,9 @@
             "Spirit",
             "Mars Science Laboratory"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2573,7 +3089,9 @@
             "Cassini-Huygens",
             "Rosetta"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2584,7 +3102,9 @@
             "Uranus",
             "Neptune"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2595,11 +3115,16 @@
             "ISRO",
             "Roscosmos"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Inventions and inventors": [
+      ]
+    },
+    "Inventions and inventors": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who is credited with inventing the telephone?",
           "options": [
@@ -2608,7 +3133,9 @@
             "Nikola Tesla",
             "Marie Curie"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2619,7 +3146,9 @@
             "Thomas Edison",
             "Galileo Galilei"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2630,7 +3159,9 @@
             "Johannes Gutenberg",
             "Louis Pasteur"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2641,7 +3172,9 @@
             "Alexander Fleming",
             "Guglielmo Marconi"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2652,7 +3185,9 @@
             "Steve Jobs",
             "Thomas Edison"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2663,7 +3198,9 @@
             "Galileo Galilei",
             "Marie Curie"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2674,7 +3211,9 @@
             "Benjamin Franklin",
             "Marie Curie"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2685,7 +3224,9 @@
             "Nikola Tesla",
             "Thomas Edison"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2696,7 +3237,9 @@
             "Johannes Gutenberg",
             "Louis Pasteur"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2707,11 +3250,16 @@
             "Marie Curie",
             "Leonardo da Vinci"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         }
-      ],
-      "Scientific discoveries": [
+      ]
+    },
+    "Scientific discoveries": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who is credited with discovering penicillin, the first antibiotic?",
           "options": [
@@ -2720,7 +3268,9 @@
             "Marie Curie",
             "Albert Einstein"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2731,7 +3281,9 @@
             "Galileo Galilei",
             "Charles Darwin"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2742,7 +3294,9 @@
             "Charles Darwin",
             "Galileo Galilei"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2753,7 +3307,9 @@
             "James Watson",
             "Francis Crick"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2764,7 +3320,9 @@
             "Charles Darwin",
             "Galileo Galilei"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2775,7 +3333,9 @@
             "Marie Curie",
             "Heinrich Hertz"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2786,7 +3346,9 @@
             "Gregor Mendel",
             "Albert Einstein"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2797,7 +3359,9 @@
             "Albert Einstein",
             "James Joule"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2808,7 +3372,9 @@
             "James Watson",
             "Francis Crick"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2819,11 +3385,16 @@
             "Marie Curie",
             "Albert Einstein"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         }
-      ],
-      "Computer science and programming": [
+      ]
+    },
+    "Computer science and programming": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "What is the most widely used programming language for web development?",
           "options": [
@@ -2832,7 +3403,9 @@
             "JavaScript",
             "C++"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -2843,7 +3416,9 @@
             "Ruby",
             "C#"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2854,7 +3429,9 @@
             "Home Tool Markup Language",
             "Hyper Transfer Markup Language"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2865,7 +3442,9 @@
             "Mercurial",
             "Perforce"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2876,7 +3455,9 @@
             "Computer Style Sheet",
             "Coded Style Syntax"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2887,7 +3468,9 @@
             "Ruby",
             "Swift"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2898,7 +3481,9 @@
             "Testing",
             "Analyzing"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2909,7 +3494,9 @@
             "Object",
             "Array"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2920,7 +3507,9 @@
             "Fortran",
             "Java"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -2931,13 +3520,18 @@
             "Tree",
             "Linked List"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         }
       ]
-    },
-    "Sports": {
-      "Popular sports and their rules": [
+    }
+  },
+  "Sports": {
+    "Popular sports and their rules": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "In which sport are players not allowed to touch the ball with their hands or arms?",
           "options": [
@@ -2946,7 +3540,9 @@
             "Tennis",
             "Volleyball"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2957,7 +3553,9 @@
             "Baseball",
             "Golf"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2968,7 +3566,9 @@
             "Table Tennis",
             "Squash"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -2979,7 +3579,9 @@
             "Baseball",
             "Golf"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -2990,7 +3592,9 @@
             "Baseball",
             "Golf"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -3001,7 +3605,9 @@
             "Baseball",
             "Golf"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3012,7 +3618,9 @@
             "Table Tennis",
             "Squash"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3023,7 +3631,9 @@
             "Baseball",
             "Snooker"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -3034,7 +3644,9 @@
             "Golf",
             "Squash"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3045,11 +3657,16 @@
             "Table Tennis",
             "Pickleball"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         }
-      ],
-      "Famous athletes and teams": [
+      ]
+    },
+    "Famous athletes and teams": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which basketball player is often referred to as 'Air Jordan'?",
           "options": [
@@ -3058,7 +3675,9 @@
             "Michael Jordan",
             "Magic Johnson"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3069,7 +3688,9 @@
             "Cristiano Ronaldo",
             "Andrés Iniesta"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3080,7 +3701,9 @@
             "Serena Williams",
             "Novak Djokovic"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3091,7 +3714,9 @@
             "Dallas Cowboys",
             "San Francisco 49ers"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3102,7 +3727,9 @@
             "Jesse Owens",
             "Justin Gatlin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3113,7 +3740,9 @@
             "Barry Bonds",
             "Willie Mays"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3124,7 +3753,9 @@
             "Jack Nicklaus",
             "Arnold Palmer"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3135,7 +3766,9 @@
             "Ayrton Senna",
             "Sebastian Vettel"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3146,7 +3779,9 @@
             "Chicago Blackhawks",
             "Detroit Red Wings"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3157,11 +3792,16 @@
             "Gabby Douglas",
             "Aly Raisman"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Olympic games historys": [
+      ]
+    },
+    "Olympic games historys": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "In which year were the first modern Olympic Games held?",
           "options": [
@@ -3170,7 +3810,9 @@
             "1912",
             "1924"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3181,7 +3823,9 @@
             "Rio de Janeiro",
             "London"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3192,7 +3836,9 @@
             "Japan",
             "Germany"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3203,7 +3849,9 @@
             "1956",
             "1964"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3214,7 +3862,9 @@
             "Chamonix",
             "Lake Placid"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3225,7 +3875,9 @@
             "1944",
             "1948"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3236,7 +3888,9 @@
             "Soviet Union",
             "Great Britain"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3247,7 +3901,9 @@
             "Athens",
             "Rio de Janeiro"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3258,7 +3914,9 @@
             "1984",
             "1992"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3269,11 +3927,16 @@
             "Soviet Union",
             "Germany"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "World Cup winners (in various sports)": [
+      ]
+    },
+    "World Cup winners (in various sports)": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which country has won the most FIFA World Cup titles?",
           "options": [
@@ -3282,7 +3945,9 @@
             "Italy",
             "Argentina"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3293,7 +3958,9 @@
             "South Africa",
             "England"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3304,7 +3971,9 @@
             "Australia",
             "West Indies"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3315,7 +3984,9 @@
             "Argentina",
             "Spain"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3326,7 +3997,9 @@
             "Brazil",
             "Norway"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3337,7 +4010,9 @@
             "Germany",
             "Pakistan"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3348,7 +4023,9 @@
             "Argentina",
             "Germany"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3359,7 +4036,9 @@
             "Spain",
             "Sweden"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3370,7 +4049,9 @@
             "New Zealand",
             "Canada"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -3381,11 +4062,16 @@
             "India",
             "West Indies"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Sports records and achievements": [
+      ]
+    },
+    "Sports records and achievements": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who holds the record for the most career home runs in Major League Baseball?",
           "options": [
@@ -3394,7 +4080,9 @@
             "Babe Ruth",
             "Alex Rodriguez"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3405,7 +4093,9 @@
             "Carl Lewis",
             "Simone Biles"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3416,7 +4106,9 @@
             "Yohan Blake",
             "Justin Gatlin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3427,7 +4119,9 @@
             "Chicago Bulls",
             "Golden State Warriors"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3438,7 +4132,9 @@
             "Bobby Orr",
             "Alexander Ovechkin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3449,7 +4145,9 @@
             "Novak Djokovic",
             "Serena Williams"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3460,7 +4158,9 @@
             "Kareem Abdul-Jabbar",
             "Wilt Chamberlain"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -3471,7 +4171,9 @@
             "Pelé",
             "Marta"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -3482,7 +4184,9 @@
             "Pete Rose",
             "Ted Williams"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3493,13 +4197,18 @@
             "New England Patriots",
             "Dallas Cowboys"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         }
       ]
-    },
-    "Entertainment": {
-      "Movies and actors/actresses": [
+    }
+  },
+  "Entertainment": {
+    "Movies and actors/actresses": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who won the Academy Award for Best Actor for his role in the movie 'The Revenant'?",
           "options": [
@@ -3508,7 +4217,9 @@
             "Brad Pitt",
             "Johnny Depp"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3519,7 +4230,9 @@
             "1917",
             "Once Upon a Time in Hollywood"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3530,7 +4243,9 @@
             "Rupert Grint",
             "Tom Felton"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3541,7 +4256,9 @@
             "Chris Hemsworth",
             "Mark Ruffalo"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3552,7 +4269,9 @@
             "Wolfwalkers",
             "Over the Moon"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3563,7 +4282,9 @@
             "Jennifer Lawrence",
             "Cate Blanchett"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3574,7 +4295,9 @@
             "The Godfather",
             "Citizen Kane"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3585,7 +4308,9 @@
             "Steven Spielberg",
             "Christopher Nolan"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3596,7 +4321,9 @@
             "Anne Hathaway",
             "Jennifer Lawrence"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3607,11 +4334,16 @@
             "Titanic",
             "Star Wars: The Force Awakens"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "TV shows and characters": [
+      ]
+    },
+    "TV shows and characters": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who played the character of Walter White in the TV show 'Breaking Bad'?",
           "options": [
@@ -3620,7 +4352,9 @@
             "Jonathan Banks",
             "Dean Norris"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3631,7 +4365,9 @@
             "How I Met Your Mother",
             "Seinfeld"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3642,7 +4378,9 @@
             "Mycroft Holmes",
             "Irene Adler"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3653,7 +4391,9 @@
             "Stranger Things",
             "The Office"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3664,7 +4404,9 @@
             "John Krasinski",
             "Jenna Fischer"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3675,7 +4417,9 @@
             "How I Met Your Mother",
             "Seinfeld"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3686,7 +4430,9 @@
             "Jim Hopper",
             "Dustin Henderson"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3697,7 +4443,9 @@
             "The Big Bang Theory",
             "Seinfeld"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3708,7 +4456,9 @@
             "Emilia Clarke",
             "Sophie Turner"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3719,11 +4469,16 @@
             "The Big Bang Theory",
             "How I Met Your Mother"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Music genres and artists": [
+      ]
+    },
+    "Music genres and artists": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which artist is known as the 'King of Pop'?",
           "options": [
@@ -3732,7 +4487,9 @@
             "Madonna",
             "Prince"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3743,7 +4500,9 @@
             "Country",
             "Salsa"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3754,7 +4513,9 @@
             "Tina Turner",
             "Beyoncé"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3765,7 +4526,9 @@
             "Pop",
             "Classical"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3776,7 +4539,9 @@
             "David Bowie",
             "Elton John"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3787,7 +4552,9 @@
             "Gospel",
             "Jazz"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -3798,7 +4565,9 @@
             "James Brown",
             "Marvin Gaye"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3809,7 +4578,9 @@
             "R&B",
             "Hip Hop"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3820,7 +4591,9 @@
             "Erykah Badu",
             "Beyoncé"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3831,11 +4604,16 @@
             "Reggaeton",
             "Hip Hop"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Award shows": [
+      ]
+    },
+    "Award shows": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which award show recognizes excellence in the film industry?",
           "options": [
@@ -3844,7 +4622,9 @@
             "Emmy Awards",
             "Tony Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3855,7 +4635,9 @@
             "Emmy Awards",
             "Tony Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3866,7 +4648,9 @@
             "Grammy Awards",
             "Tony Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3877,7 +4661,9 @@
             "Grammy Awards",
             "Emmy Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3888,7 +4674,9 @@
             "BAFTA Awards",
             "Golden Globe Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3899,7 +4687,9 @@
             "Golden Globe Awards",
             "MTV Video Music Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3910,7 +4700,9 @@
             "Webby Awards",
             "Golden Globe Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3921,7 +4713,9 @@
             "Webby Awards",
             "Golden Globe Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3932,7 +4726,9 @@
             "MTV Video Music Awards",
             "Golden Globe Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3943,11 +4739,16 @@
             "Clio Awards",
             "Webby Awards"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Celebrity trivia": [
+      ]
+    },
+    "Celebrity trivia": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which actor played the character of Iron Man in the Marvel Cinematic Universe?",
           "options": [
@@ -3956,7 +4757,9 @@
             "Chris Hemsworth",
             "Mark Ruffalo"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3967,7 +4770,9 @@
             "Taylor Swift",
             "Rihanna"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3978,7 +4783,9 @@
             "Leonardo DiCaprio",
             "Tom Hanks"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -3989,7 +4796,9 @@
             "Natalie Portman",
             "Cate Blanchett"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4000,7 +4809,9 @@
             "Katy Perry",
             "Rihanna"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4011,7 +4822,9 @@
             "Michael Keaton",
             "George Clooney"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4022,7 +4835,9 @@
             "Anne Hathaway",
             "Jennifer Lawrence"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4033,7 +4848,9 @@
             "Selena Gomez",
             "Katy Perry"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4044,7 +4861,9 @@
             "Sean Connery",
             "Roger Moore"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4055,11 +4874,16 @@
             "Jennifer Lawrence",
             "Natalie Portman"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Famous quotes and catchphrases": [
+      ]
+    },
+    "Famous quotes and catchphrases": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which famous scientist said, 'Eureka'?",
           "options": [
@@ -4068,7 +4892,9 @@
             "Isaac Newton",
             "Galileo Galilei"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4079,7 +4905,9 @@
             "Luke Skywalker",
             "Yoda"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4090,7 +4918,9 @@
             "Winston Churchill",
             "Mahatma Gandhi"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4101,7 +4931,9 @@
             "Scooby-Doo",
             "Tom and Jerry"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4112,7 +4944,9 @@
             "Jane Austen",
             "F. Scott Fitzgerald"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4123,7 +4957,9 @@
             "Harry Potter",
             "Spider-Man"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4134,7 +4970,9 @@
             "Elvis Presley",
             "John Lennon"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4145,7 +4983,9 @@
             "Batman",
             "Wonder Woman"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4156,7 +4996,9 @@
             "Hercule Poirot",
             "Miss Marple"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4167,13 +5009,18 @@
             "Plato",
             "Aristotle"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
       ]
-    },
-    "Literature": {
-      "Classic novels and authors": [
+    }
+  },
+  "Literature": {
+    "Classic novels and authors": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who is the author of the novel 'Pride and Prejudice'?",
           "options": [
@@ -4182,7 +5029,9 @@
             "Charlotte Brontë",
             "Virginia Woolf"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4193,7 +5042,9 @@
             "Mark Twain",
             "Ernest Hemingway"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4204,7 +5055,9 @@
             "Leo Tolstoy",
             "Fyodor Dostoevsky"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4215,7 +5068,9 @@
             "Ray Bradbury",
             "J.R.R. Tolkien"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4226,7 +5081,9 @@
             "Jane Austen",
             "Louisa May Alcott"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4237,7 +5094,9 @@
             "John Steinbeck",
             "William Faulkner"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4248,7 +5107,9 @@
             "Anton Chekhov",
             "Nikolai Gogol"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4259,7 +5120,9 @@
             "Aldous Huxley",
             "Ray Bradbury"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4270,7 +5133,9 @@
             "Charlotte Brontë",
             "Virginia Woolf"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4281,11 +5146,16 @@
             "Mark Twain",
             "Ernest Hemingway"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Poetry and famous poems": [
+      ]
+    },
+    "Poetry and famous poems": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who wrote the poem 'The Raven'?",
           "options": [
@@ -4294,7 +5164,9 @@
             "Emily Dickinson",
             "William Shakespeare"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4305,7 +5177,9 @@
             "Langston Hughes",
             "Sylvia Plath"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4316,7 +5190,9 @@
             "Pablo Neruda",
             "Rumi"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4327,7 +5203,9 @@
             "Lord Byron",
             "Samuel Taylor Coleridge"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4338,7 +5216,9 @@
             "Ralph Waldo Emerson",
             "E.E. Cummings"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4349,7 +5229,9 @@
             "Pablo Neruda",
             "Langston Hughes"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4360,7 +5242,9 @@
             "Emily Dickinson",
             "William Shakespeare"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4371,7 +5255,9 @@
             "Langston Hughes",
             "Sylvia Plath"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4382,7 +5268,9 @@
             "Pablo Neruda",
             "Rumi"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4393,11 +5281,16 @@
             "Lord Byron",
             "Samuel Taylor Coleridge"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Literary genres and movements": [
+      ]
+    },
+    "Literary genres and movements": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which literary genre focuses on expressing feelings and emotions through verse?",
           "options": [
@@ -4406,7 +5299,9 @@
             "Fiction",
             "Non-fiction"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4417,7 +5312,9 @@
             "Modernism",
             "Naturalism"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4428,7 +5325,9 @@
             "Poetry",
             "Drama"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4439,7 +5338,9 @@
             "Realism",
             "Postmodernism"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4450,7 +5351,9 @@
             "Drama",
             "Non-fiction"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4461,7 +5364,9 @@
             "Modernism",
             "Realism"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4472,7 +5377,9 @@
             "Drama",
             "Non-fiction"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4483,7 +5390,9 @@
             "Modernism",
             "Naturalism"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4494,7 +5403,9 @@
             "Poetry",
             "Non-fiction"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4505,11 +5416,16 @@
             "Realism",
             "Modernism"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Literary characters and their creators": [
+      ]
+    },
+    "Literary characters and their creators": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who is the creator of the character Sherlock Holmes?",
           "options": [
@@ -4518,7 +5434,9 @@
             "J.R.R. Tolkien",
             "Jane Austen"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4529,7 +5447,9 @@
             "Charles Dickens",
             "Virginia Woolf"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4540,7 +5460,9 @@
             "Harper Lee",
             "John Steinbeck"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4551,7 +5473,9 @@
             "Ray Bradbury",
             "F. Scott Fitzgerald"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4562,7 +5486,9 @@
             "John Steinbeck",
             "Ernest Hemingway"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4573,7 +5499,9 @@
             "Emily Dickinson",
             "Virginia Woolf"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4584,7 +5512,9 @@
             "George R.R. Martin",
             "Terry Pratchett"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4595,7 +5525,9 @@
             "Anne Brontë",
             "Jane Austen"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4606,7 +5538,9 @@
             "John Steinbeck",
             "Ernest Hemingway"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4617,11 +5551,16 @@
             "Mark Twain",
             "Lewis Carroll"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Book summaries and plots": [
+      ]
+    },
+    "Book summaries and plots": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which book tells the story of a young orphan named Harry Potter and his journey as a wizard?",
           "options": [
@@ -4630,7 +5569,9 @@
             "Pride and Prejudice",
             "The Great Gatsby"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4641,7 +5582,9 @@
             "The Catcher in the Rye",
             "Moby-Dick"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4652,7 +5595,9 @@
             "Jane Eyre",
             "The Hobbit"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4663,7 +5608,9 @@
             "Frankenstein",
             "The Lord of the Rings"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4674,7 +5621,9 @@
             "The Great Gatsby",
             "Harry Potter and the Philosopher's Stone"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4685,7 +5634,9 @@
             "Wuthering Heights",
             "The Catcher in the Rye"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4696,7 +5647,9 @@
             "Jane Eyre",
             "Moby-Dick"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4707,7 +5660,9 @@
             "Brave New World",
             "Frankenstein"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4718,7 +5673,9 @@
             "The Hobbit",
             "The Old Man and the Sea"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4729,13 +5686,18 @@
             "Jane Eyre",
             "To Kill a Mockingbird"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
       ]
-    },
-    "Miscellaneous": {
-      "Food and drink": [
+    }
+  },
+  "Miscellaneous": {
+    "Food and drink": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "What is the main ingredient in guacamole?",
           "options": [
@@ -4744,7 +5706,9 @@
             "Onion",
             "Lime"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4755,7 +5719,9 @@
             "China",
             "India"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4766,7 +5732,9 @@
             "Rice",
             "Soy sauce"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -4777,7 +5745,9 @@
             "Tequila",
             "Vodka"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4788,7 +5758,9 @@
             "Pizza",
             "Pasta"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4799,7 +5771,9 @@
             "Orange",
             "Banana"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4810,7 +5784,9 @@
             "Vanilla",
             "Ginger"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4821,7 +5797,9 @@
             "Pepperoni",
             "Mushroom"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4832,7 +5810,9 @@
             "Japan",
             "Spain"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4843,11 +5823,16 @@
             "Croutons",
             "Parmesan cheese"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Mythology and folklore": [
+      ]
+    },
+    "Mythology and folklore": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which mythological figure is known for his strength and twelve labors?",
           "options": [
@@ -4856,7 +5841,9 @@
             "Poseidon",
             "Apollo"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4867,7 +5854,9 @@
             "Minotaur",
             "Sphinx"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4878,7 +5867,9 @@
             "Hera",
             "Artemis"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4889,7 +5880,9 @@
             "Thor",
             "Freya"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4900,7 +5893,9 @@
             "Anubis",
             "Isis"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -4911,7 +5906,9 @@
             "Yokai",
             "Tengu"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4922,7 +5919,9 @@
             "Perseus",
             "Hector"
           ],
-          "answer": 1,
+          "answer": [
+            1
+          ],
           "isMultiple": false
         },
         {
@@ -4933,7 +5932,9 @@
             "Vishnu",
             "Krishna"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4944,7 +5945,9 @@
             "Centaur",
             "Griffin"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4955,11 +5958,16 @@
             "Lancelot",
             "Guinevere"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Famous quotes and their authors": [
+      ]
+    },
+    "Famous quotes and their authors": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Who said, 'The only way to do great work is to love what you do'?",
           "options": [
@@ -4968,7 +5976,9 @@
             "Mark Zuckerberg",
             "Elon Musk"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4979,7 +5989,9 @@
             "Jane Austen",
             "J.K. Rowling"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -4990,7 +6002,9 @@
             "Stephen Hawking",
             "Mark Twain"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -5001,7 +6015,9 @@
             "Amelia Earhart",
             "Malala Yousafzai"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5012,7 +6028,9 @@
             "Emily Dickinson",
             "Pablo Neruda"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -5023,7 +6041,9 @@
             "Martin Luther King Jr.",
             "Winston Churchill"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5034,7 +6054,9 @@
             "Thomas Jefferson",
             "Voltaire"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5045,7 +6067,9 @@
             "George Orwell",
             "J.K. Rowling"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5056,7 +6080,9 @@
             "Elvis Presley",
             "Freddie Mercury"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5067,11 +6093,16 @@
             "Harper Lee",
             "Toni Morrison"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "World records": [
+      ]
+    },
+    "World records": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "Which athlete holds the world record for the fastest 100-meter sprint?",
           "options": [
@@ -5080,7 +6111,9 @@
             "Tyson Gay",
             "Yohan Blake"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5091,7 +6124,9 @@
             "Hank Aaron",
             "Alex Rodriguez"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5102,7 +6137,9 @@
             "Italy",
             "Argentina"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5113,7 +6150,9 @@
             "Novak Djokovic",
             "Pete Sampras"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -5124,7 +6163,9 @@
             "Ian Thorpe",
             "Ryan Lochte"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5135,7 +6176,9 @@
             "Don Bradman",
             "Matthew Hayden"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5146,7 +6189,9 @@
             "Los Angeles Lakers",
             "Boston Celtics"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5157,7 +6202,9 @@
             "Jaromir Jagr",
             "Gordie Howe"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5168,7 +6215,9 @@
             "China",
             "Romania"
           ],
-          "answer": 2,
+          "answer": [
+            2
+          ],
           "isMultiple": false
         },
         {
@@ -5179,11 +6228,16 @@
             "Gerd Muller",
             "Luis Suarez"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
-      ],
-      "Brain teasers and riddles": [
+      ]
+    },
+    "Brain teasers and riddles": {
+      "timeDuration": 10,
+      "questions": [
         {
           "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
           "options": [
@@ -5192,7 +6246,9 @@
             "Ghost",
             "Shadow"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5203,7 +6259,9 @@
             "Map",
             "Clock"
           ],
-          "answer": 3,
+          "answer": [
+            3
+          ],
           "isMultiple": false
         },
         {
@@ -5214,7 +6272,9 @@
             "Book",
             "Dream"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5225,7 +6285,9 @@
             "Money",
             "Breath"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5236,7 +6298,9 @@
             "Internet",
             "Keyboard"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5247,7 +6311,9 @@
             "Satellite",
             "Postcard"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5258,7 +6324,9 @@
             "Ball",
             "Breath"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5269,7 +6337,9 @@
             "Diamond",
             "Camera"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5280,7 +6350,9 @@
             "Lion",
             "Wind"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         },
         {
@@ -5291,9 +6363,12 @@
             "Stone",
             "Robot"
           ],
-          "answer": 0,
+          "answer": [
+            0
+          ],
           "isMultiple": false
         }
       ]
     }
   }
+}
