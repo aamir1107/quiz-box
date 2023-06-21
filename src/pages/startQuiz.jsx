@@ -1,10 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import classes from "./../scss/startQuiz.module.scss"
 import datas from "./../data/quizQuestionBank.json";
-import { useParams, useNavigate, useBeforeUnload } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
-import ReactDOM from "react-dom";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
+import Box from '@mui/material/Box';
+
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+
+const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+};
+
+
 
 const optionMap = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
@@ -15,7 +32,8 @@ function StartQuiz() {
     const [shownQuestionIndex, setShownQuestionIndex] = useState(0);
     const [selectedQuestion, setSelectedQuestion] = useState(null);
     const [timeDuration, setTimeDuration] = useState(0);
-
+    const [openSubmitPopup, setOpenSubmitPopup] = useState(false);
+    const [isTimerStarted, setIsTimerStarted] = useState(false);
 
     useEffect(() => {
         let questionDetails = datas?.[categories]?.[subCatogeries] || null;
@@ -29,12 +47,10 @@ function StartQuiz() {
             setQuestionSet(_questionSet)
             setTimeDuration(duration * 60)
             setSelectedQuestion(_questionSet[shownQuestionIndex])
-
+            setIsTimerStarted(true)
         } else {
             navigate('/')
         }
-
-
         const handleBeforeUnload = (event) => {
             event.preventDefault();
             event.returnValue = 'fgddd'; // This line is necessary for some browsers
@@ -49,7 +65,7 @@ function StartQuiz() {
 
 
         };
-
+        // eslint-disable-next-line 
     }, [])
 
     const handleUserAction = (idx) => {
@@ -79,9 +95,18 @@ function StartQuiz() {
         }
     }
 
+    const handleSubmit = () => {
+        setIsTimerStarted(false)
+        setOpenSubmitPopup(true)
+    }
+
+    const handleClose = () => {
+        setOpenSubmitPopup(false)
+    }
 
     const renderTime = ({ remainingTime }) => {
         if (remainingTime === 0) {
+            handleSubmit()
             return <div className="timer">Too lale...</div>;
         }
 
@@ -89,12 +114,9 @@ function StartQuiz() {
             <div className="timer">
                 <div className="text">Remaining</div>
                 <div className="value">{remainingTime}</div>
-
             </div>
         );
     };
-
-
 
     return (
         <div className={classes.startQuestionContainer}>
@@ -116,35 +138,38 @@ function StartQuiz() {
                             <div key={e} className={`${classes.option}${selectedQuestion.userSelectedAnswer.includes(idx) ? ` ${classes.selectedOption}` : ''}`}
                                 onClick={() => handleUserAction(idx)}
                             >
-                                {"(" + optionMap[idx] + ") " + " " + e}
+                                {`(${optionMap[idx]}) ${e}`}
 
                             </div>
                         ))}
                     </div>
 
-                    <div >
+                    <div className={classes.buttonSection}>
 
-                        <div>
-                            <Button variant="outlined" className={classes.startButton}
+                        <div className={classes.previousButton}>
+                            <Button variant="outlined" className={classes.previous}
                                 onClick={handlePrevious}
                             >PREVIOUS</Button>
                         </div>
 
-                        <div >
-                            <Button variant="outlined" className={classes.startButton}
+                        <div className={classes.nextButton} >
+                            <Button variant="outlined" className={classes.next}
                                 onClick={handleNext}
                             >NEXT</Button>
                         </div>
 
-                        <div className="timer-wrapper">
-                            <CountdownCircleTimer
-                                isPlaying
-                                duration={timeDuration}
-                                colors={["#004777",]}
+                        <div className={classes.submitButton}>
+                            <Button className={classes.submit}
+                                onClick={handleSubmit}
+                            >SUBMIT</Button>
+                        </div>
 
-                                colorsTime={[10, 6, 3, 0]}
-                                onComplete={() => ({ shouldRepeat: true, delay: 1 })}
-                            >
+                        <div className={classes.timerWrapper}>
+                            <CountdownCircleTimer
+                                isPlaying={isTimerStarted}
+                                duration={timeDuration}
+                                colors={["#ff0303",]}
+                                onComplete={() => ({ shouldRepeat: false, delay: 1 })}>
                                 {renderTime}
                             </CountdownCircleTimer>
                         </div>
@@ -155,6 +180,22 @@ function StartQuiz() {
 
                 : null}
 
+
+            {openSubmitPopup ? <Modal
+                open={openSubmitPopup}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+
+                    </Typography>
+                </Box>
+            </Modal> : null}
         </div>
     )
 }

@@ -1,3 +1,5 @@
+$timer-height: 120px;
+
 .startQuestionContainer {
     .questionAnswerSection {
         display: flex;
@@ -34,7 +36,6 @@
 
 
                 &.selectedOption {
-
                     border: 3px solid rgb(1, 174, 102);
                 }
 
@@ -45,6 +46,130 @@
 
             }
 
+        }
+
+        .buttonSection {
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            margin-top: 50px;
+
+
+            .previousButton {
+                .previous {
+                    height: 40px;
+                    width: 150px;
+                    text-transform: uppercase;
+                    background-image: linear-gradient(-225deg,
+                            #231557 0%,
+                            #44107a 29%,
+                            #ff1361 67%,
+                            #fff800 100%);
+                    background-size: auto auto;
+                    background-clip: border-box;
+                    background-size: 200% auto;
+
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: textclip 2s linear infinite;
+
+                    font-size: 14px;
+                    flex-wrap: wrap;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    font-weight: bolder;
+                    border: 3px solid white;
+                    cursor: pointer;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .previous:hover {
+                    border: 3px solid rgb(1, 174, 102);
+                }
+
+            }
+
+            .nextButton {
+                .next {
+                    height: 40px;
+                    width: 150px;
+                    text-transform: uppercase;
+                    background-image: linear-gradient(-225deg,
+                            #231557 0%,
+                            #44107a 29%,
+                            #ff1361 67%,
+                            #fff800 100%);
+                    background-size: auto auto;
+                    background-clip: border-box;
+                    background-size: 200% auto;
+
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: textclip 2s linear infinite;
+                    display: inline-block;
+                    font-size: 14px;
+                    flex-wrap: wrap;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    font-weight: bolder;
+                    border: 3px solid white;
+                    cursor: pointer;
+                }
+
+                .next:hover {
+                    border: 3px solid rgb(1, 174, 102);
+                }
+            }
+
+            .submitButton {
+                .submit {
+                    height: 40px;
+                    width: 150px;
+                    text-transform: uppercase;
+                    background-image: linear-gradient(-225deg,
+                            #231557 0%,
+                            #44107a 29%,
+                            #ff1361 67%,
+                            #fff800 100%);
+                    background-size: auto auto;
+                    background-clip: border-box;
+                    background-size: 200% auto;
+
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: textclip 2s linear infinite;
+                    display: inline-block;
+                    font-size: 14px;
+                    flex-wrap: wrap;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    font-weight: bolder;
+                    border: 3px solid white;
+                    cursor: pointer;
+                }
+
+                .submit:hover {
+                    border: 3px solid rgb(1, 174, 102);
+
+                }
+            }
+
+            .timerWrapper {
+                >div {
+                    height: $timer-height !important;
+                    width: $timer-height !important;
+
+                    svg {
+                        height: $timer-height !important;
+                        width: $timer-height !important;
+                    }
+                }
+            }
         }
     }
 }

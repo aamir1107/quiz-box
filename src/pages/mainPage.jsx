@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import classes from '../scss/mainPage.module.scss'
 import Button from '@mui/material/Button';
 import data from '../data/quizQuestionBank.json';
@@ -21,10 +21,16 @@ function MainPage() {
         setSubCategoryList(subCatogeries)
         setOpen(true)
     };
-    const handleClose = () => setOpen(false);
+    const handleClose = () => {
+        setOpen(false)
+        setSelectedSubCategory("")
+    }
 
     const routeToStartQuiz = () => {
-        navigate(`quiz/${selectedCategory}/${selectedSubCategory}`)
+        if (selectedSubCategory) {
+            navigate(`quiz/${selectedCategory}/${selectedSubCategory}`)
+        }
+
     }
 
     // useEffect(() => {
