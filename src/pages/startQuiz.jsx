@@ -13,12 +13,11 @@ const style = {
     position: 'absolute',
     top: '50%',
     left: '50%',
+    height: '500px',
+    width: '800px',
     transform: 'translate(-50%, -50%)',
-    width: 400,
     bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
+    p: 1,
 };
 
 
@@ -27,13 +26,14 @@ const optionMap = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
 function StartQuiz() {
     const navigate = useNavigate();
-    const { categories, subCatogeries } = useParams();
-    const [questionSet, setQuestionSet] = useState([]);
-    const [shownQuestionIndex, setShownQuestionIndex] = useState(0);
-    const [selectedQuestion, setSelectedQuestion] = useState(null);
-    const [timeDuration, setTimeDuration] = useState(0);
+    const { categories, subCatogeries } = useParams(); // console.log('categories', categories)  // console.log('subCatogeries', subCatogeries)
+    const [questionSet, setQuestionSet] = useState([]); // console.log('questionSet', questionSet)
+    const [shownQuestionIndex, setShownQuestionIndex] = useState(0); console.log('shownQuestionIndex', shownQuestionIndex)
+    const [selectedQuestion, setSelectedQuestion] = useState(null);  // console.log('selectedQuestion', selectedQuestion)
+    const [timeDuration, setTimeDuration] = useState(0);   // console.log('timeDuration', timeDuration)
     const [openSubmitPopup, setOpenSubmitPopup] = useState(false);
     const [isTimerStarted, setIsTimerStarted] = useState(false);
+
 
     useEffect(() => {
         let questionDetails = datas?.[categories]?.[subCatogeries] || null;
@@ -42,6 +42,7 @@ function StartQuiz() {
             let duration = questionDetails.timeDuration;
             _questionSet = _questionSet.map(eachQuestion => {
                 eachQuestion.userSelectedAnswer = []
+                console.log('eachQuestion.userSelectedAnswer', eachQuestion.userSelectedAnswer)
                 return eachQuestion
             })
             setQuestionSet(_questionSet)
@@ -110,6 +111,7 @@ function StartQuiz() {
             return <div className="timer">Too lale...</div>;
         }
 
+
         return (
             <div className="timer">
                 <div className="text">Remaining</div>
@@ -117,6 +119,23 @@ function StartQuiz() {
             </div>
         );
     };
+
+    const getScore = (userSelectedAnswer, answer) => {
+        if (userSelectedAnswer.length) {
+            let isCorrect = true;
+            for (let i = 0; i < answer.length; i++) {
+                if (!userSelectedAnswer.includes(answer[i])) {
+                    isCorrect = false;
+                    break;
+                }
+            }
+            return isCorrect ? "1" : "0"
+        } else {
+            return "0"
+        }
+    }
+
+
 
     return (
         <div className={classes.startQuestionContainer}>
@@ -182,21 +201,78 @@ function StartQuiz() {
 
 
             {openSubmitPopup ? <Modal
+                className={classes.resultPopUp}
                 open={openSubmitPopup}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-
+                    <Typography id="modal-modal-title" variant="h5" sx={{
+                        textAlign: 'center',
+                        color: 'red'
+                    }}>
+                        {`${categories} -  ${subCatogeries}`}
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
 
-                    </Typography>
+
+
+                    <div className={classes.resultTable}>
+
+                        <span className={classes.resultText}>Result</span>
+                        <table className={classes.table}>
+                            <thead>
+                                <tr>
+                                    <th style={{
+                                        width: "100px",
+                                        color: "red"
+                                    }
+                                    }>
+                                        S.No
+                                    </th>
+
+                                    <th style={{
+                                        width: "150px",
+                                        color: "red"
+                                    }
+                                    }>
+                                        Selected Answer
+                                    </th>
+
+                                    <th style={{
+                                        width: "100px",
+                                        color: "red"
+                                    }
+                                    }>
+                                        Answer
+                                    </th>
+
+                                    <th style={{
+                                        width: "100px",
+                                        color: "red"
+                                    }
+                                    }>
+                                        Score
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {questionSet.map((question, idx) => (
+                                    <tr key={idx}>
+                                        <td>{idx + 1}</td>
+                                        <td>{question.userSelectedAnswer.map(e => optionMap[e]).join(' ')}</td>
+                                        <td>{question.answer.map(e => optionMap[e]).join(',')}</td>
+                                        <td>{getScore(question.userSelectedAnswer, question.answer)}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
                 </Box>
-            </Modal> : null}
-        </div>
+            </Modal> : null
+            }
+        </div >
     )
 }
 

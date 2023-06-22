@@ -172,4 +172,24 @@ $timer-height: 120px;
             }
         }
     }
+
+
+}
+
+.resultTable {
+    width: 100%;
+    text-align: -webkit-center;
+
+    .resultText {
+
+        font-size: 30px;
+        font-weight: bolder;
+        color: red;
+    }
+
+    .table {
+        :global(td) {
+            text-align: center;
+        }
+    }
 }
