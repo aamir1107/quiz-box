@@ -139,6 +139,14 @@ function StartQuiz() {
         }
     }
 
+    const getTotalScore = () => {
+        let totalScore = 0;
+        questionSet.forEach((q => {
+            totalScore += parseInt(getScore(q.userSelectedAnswer, q.answer))
+        }))
+        return totalScore
+    }
+
 
     const backToHome = () => {
         navigate('/')
@@ -269,17 +277,18 @@ function StartQuiz() {
                             <tbody>
                                 {questionSet.map((question, idx) => (
                                     <tr key={idx}>
-                                        <td>{idx + 1}</td>
-                                        <td>{question.userSelectedAnswer.map(e => optionMap[e]).join(' ')}</td>
-                                        <td>{question.answer.map(e => optionMap[e]).join(',')}</td>
-                                        <td>{getScore(question.userSelectedAnswer, question.answer)}</td>
+                                        <td style={{ fontWeight: 'bolder' }}>{idx + 1}</td>
+                                        <td style={{ fontWeight: 'bolder' }}>{question.userSelectedAnswer.map(e => optionMap[e]).join(' ')}</td>
+                                        <td style={{ fontWeight: 'bolder' }}>{question.answer.map(e => optionMap[e]).join(',')}</td>
+                                        <td style={{ fontWeight: 'bolder' }}>{getScore(question.userSelectedAnswer, question.answer)} </td>
                                     </tr>
                                 ))}
                             </tbody>
                         </table>
 
-
                     </div>
+
+                    <div className={classes.total}>Total = {getTotalScore()}</div>
 
                     <div className={classes.homeButton}>
                         <Button className={classes.home}

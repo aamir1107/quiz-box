@@ -196,6 +196,20 @@ $timer-height: 120px;
 
 }
 
+.total {
+    width: 125px;
+    font-size: 18px;
+    color: red;
+    font-weight: bolder;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 165px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
 .homeButton {
     margin-top: 40px;
     text-align: center;
@@ -224,6 +238,7 @@ $timer-height: 120px;
         font-weight: bolder;
         border: 3px solid black;
         cursor: pointer;
+        justify-content: center;
     }
 
     .home:hover {
