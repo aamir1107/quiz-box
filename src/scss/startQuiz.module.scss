@@ -192,4 +192,41 @@ $timer-height: 120px;
             text-align: center;
         }
     }
+
+
+}
+
+.homeButton {
+    margin-top: 40px;
+    text-align: center;
+
+    .home {
+        height: 40px;
+        width: 150px;
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 14px;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        font-weight: bolder;
+        border: 3px solid black;
+        cursor: pointer;
+    }
+
+    .home:hover {
+        border: 3px solid rgb(1, 174, 102);
+    }
 }

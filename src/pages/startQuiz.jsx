@@ -114,8 +114,12 @@ function StartQuiz() {
 
         return (
             <div className="timer">
-                <div className="text">Remaining</div>
-                <div className="value">{remainingTime}</div>
+                <div className="text" style={{
+                    color: 'red'
+                }}>Remaining</div>
+                <div className="value" style={{
+                    color: 'red'
+                }}>{`${remainingTime} Sec`}</div>
             </div>
         );
     };
@@ -133,6 +137,11 @@ function StartQuiz() {
         } else {
             return "0"
         }
+    }
+
+
+    const backToHome = () => {
+        navigate('/')
     }
 
 
@@ -268,6 +277,14 @@ function StartQuiz() {
                                 ))}
                             </tbody>
                         </table>
+
+
+                    </div>
+
+                    <div className={classes.homeButton}>
+                        <Button className={classes.home}
+                            onClick={backToHome}
+                        >home</Button>
                     </div>
                 </Box>
             </Modal> : null
